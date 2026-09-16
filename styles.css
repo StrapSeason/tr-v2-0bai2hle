@@ -1,0 +1,107 @@
+/* ==========================================================================
+   «Выбери» — Cloud.ru «Облако» · treatment site
+   The site IS the deck: 30 slides 1920×1080, each a 1:1 copy of a pin from the board «danya»,
+   loops inside the pins' photo boxes, no captions or credits. Wrap: monochrome editorial.
+   ========================================================================== */
+
+/* ---------- tokens ---------- */
+:root {
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --fs-body: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+  --lh-body: 1.6;
+  --measure: 64ch;
+
+  --field: #efefed;
+  --ink: #111111;
+  --ink-soft: #6e6e6a;
+  --line: rgba(17, 17, 17, 0.14);
+
+  --col: min(1600px, 100% - 2 * var(--gutter));
+  --gutter: clamp(0rem, 2.4vw, 2.5rem);
+  --section-gap: clamp(4rem, 9vw, 9rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  color-scheme: light;
+}
+
+/* ---------- reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100svh; background: var(--field); color: var(--ink); font-family: var(--font-body); font-size: var(--fs-body); line-height: var(--lh-body); -webkit-font-smoothing: antialiased; }
+img, video, svg { display: block; max-width: 100%; }
+h1, h2, h3, p, figure { margin: 0; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+/* ---------- slide frame: fixed canvases scaled to the column by main.js ---------- */
+.slide-wrap { position: relative; width: var(--col); margin-inline: auto; overflow: hidden; }
+.slide-wrap .slide { position: absolute; left: 0; top: 0; width: calc(var(--w) * 1px); height: calc(var(--h) * 1px); transform-origin: 0 0; overflow: hidden; }
+.slide .abs { position: absolute; }
+
+/* ---------- chapters: the deck — 16:9 slides stacked with a small gap, refs live inside them ---------- */
+.chapter { padding-block: 0 clamp(0.75rem, 1.6vw, 1.5rem); }
+.chapter:first-child { padding-top: 0; }
+@media (min-width: 900px) { .chapter:first-child { padding-top: calc(var(--gutter) * 0.5); } }
+
+/* ---------- chapter index: fixed mono label, list opens on hover / focus ---------- */
+.chapters { position: fixed; top: 12px; left: 12px; z-index: 50; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; }
+.chapters ol { list-style: none; margin: 0; padding: 6px 0; background: var(--field); border: 1px solid var(--line); min-width: 15rem; }
+.chapters li { display: none; }
+.chapters li:has(.is-current) { display: block; }
+.chapters:hover li, .chapters:focus-within li { display: block; }
+.chapters a { display: flex; gap: 0.9em; padding: 4px 12px; text-decoration: none; color: var(--ink-soft); }
+.chapters a.is-current { color: var(--ink); }
+.chapters a:hover { color: var(--ink); background: rgba(20, 20, 20, 0.05); }
+.chapters__num { min-width: 1.6em; }
+
+/* ---------- «Текстом» — phones only: a 16:9 slide at 375 px is a picture, the prose makes it readable ---------- */
+.text { display: none; }
+@media (max-width: 640px) { .text { display: block; } }
+.text { width: var(--col); margin: 1.25rem auto 0; padding-inline: clamp(1rem, 3vw, 0rem); }
+.text summary { cursor: pointer; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); list-style: none; width: max-content; padding: 4px 0; border-bottom: 1px solid var(--line); }
+.text summary::-webkit-details-marker { display: none; }
+.text summary::after { content: " +"; }
+.text[open] summary::after { content: " −"; }
+.text__body { max-width: var(--measure); padding-top: 1rem; }
+.text__body p + p, .text__body p + ul, .text__body ul + p, .text__body p + ol, .text__body ol + p { margin-top: 0.9em; }
+.text__body ul, .text__body ol { margin: 0; padding-left: 1.2em; }
+.text__body strong { font-weight: 600; }
+
+/* ---------- refs: claim label + strip of loops ---------- */
+.refs { width: var(--col); margin: clamp(1.75rem, 3vw, 2.75rem) auto 0; padding-inline: clamp(1rem, 3vw, 0rem); }
+.refs__claim { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink); padding-bottom: 0.6rem; margin-bottom: 0.75rem; border-bottom: 1px solid var(--line); }
+.ref-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: 12px; }
+.loop { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: #d9d6cf; }
+.loop--manual { cursor: pointer; }
+.ref { display: grid; gap: 0.5rem; align-content: start; }
+.ref figcaption { display: grid; gap: 0.2rem; font-size: 0.875rem; line-height: 1.35; }
+.ref__look { color: var(--ink); }
+.ref__credit { color: var(--ink-soft); font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.02em; }
+.ref__credit a { color: var(--ink-soft); text-underline-offset: 2px; }
+
+/* ---------- closing ---------- */
+.closing { width: var(--col); margin: 0 auto; padding: 0 clamp(1rem, 3vw, 0rem) calc(var(--section-gap) * 0.8); }
+.closing__text { max-width: 36ch; font-size: clamp(1.35rem, 1rem + 1.4vw, 2.2rem); line-height: 1.25; font-weight: 600; letter-spacing: -0.01em; }
+.closing__meta { margin-top: 2.5rem; padding-top: 0.75rem; border-top: 1px solid var(--line); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+
+/* ---------- mobile ---------- */
+@media (max-width: 640px) {
+  :root { --gutter: 0rem; }
+  .chapters { top: 8px; left: 8px; font-size: 10px; }
+  .chapters ol { min-width: 13rem; }
+  .ref-strip { gap: 18px; }
+}
+
+/* ---------- utilities ---------- */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* ---------- print: reading version ---------- */
+@media print {
+  .chapters, video { display: none !important; }
+  .text { display: block; }
+  .chapter { break-inside: avoid; padding-block: 1.5rem; }
+}
