@@ -66,18 +66,23 @@
      Copy per slot: TL «Cloud.ru — ролик «Облако»» · centre the meaning line · TR «Режиссёрский тритмент» (plan) ·
      «The / Great» → «Все смотрят / на тебя» (the picture) · small block → treatment §01 («Решение нужно сегодня,
      ошибка стоит дорого, а вариантов больше, чем часов»), one sentence per line so each line starts with a capital like
-     the pin's · «A Project by» → «Версии ролика / 60″ · 20″ · 15″ · 10″» · «47» → «Герой — ты» · «2024» → «Сентябрь 2026». */
+     the pin's · «A Project by» → «Версии ролика / 60″ · 20″ · 15″ · 10″» · «47» → «Герой — ты» · «2024» → «Сентябрь 2026».
+     Legibility pass 2026-09-17 (user rule): type SIZE overrides the pin for meaning text — top rows 18.4 → 34 px (the
+     centre sentence re-broken to two lines so it clears the TL block; TR 26 px), versions 15.8 → 30 px, other micro
+     15.8 → 22–24 px. Anchors (left/top, right edge, centre) kept; blocks grow down from the pin's first cap top. */
   .s01 { background: #0b0b0b; color: #f9fe00; }
   .s01 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s01 .bgw { left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; }
   .s01 .bgw video { position: absolute; left: -144px; top: 0; width: 2208px; height: 1242px; display: block; }
-  .s01 .mic { font-family: 'Inter Tight', sans-serif; font-weight: 400; font-size: 18.4px; }
+  .s01 .mic { font-family: 'Inter Tight', sans-serif; font-weight: 400; font-size: 34px; }
+  .s01 .mic2 { font-size: 26px; }
   .s01 .mic b { font-weight: 700; }
   .s01 .dk { color: #0b0b0b; }
-  .s01 .sm { font-family: 'Inter Tight', sans-serif; font-weight: 400; font-size: 15.8px; }
+  .s01 .sm { font-family: 'Inter Tight', sans-serif; font-weight: 400; font-size: 24px; }
+  .s01 .sm.s22 { font-size: 22px; } .s01 .sm.s30 { font-size: 30px; }
   /* the pin's small block is ≈ 60 % yellow; over the teal partition that measures 4.0:1 for 15.8-px text, so it is
-     set at 72 % (4.8:1) — still visibly dimmer than the full yellow */
-  .s01 .fade { color: rgba(249, 254, 0, .72); }
+     set at 86 % (5.1:1 at 22 px, legibility pass 2026-09-17) — still dimmer than the full yellow */
+  .s01 .fade { color: rgba(249, 254, 0, .86); }
   .s01 .giant { font-family: 'Roboto Flex', sans-serif; font-size: 202.4px; font-weight: 1000;
                 font-variation-settings: 'wght' 1000, 'wdth' 124; }
   .s01 .r { text-align: right; }
@@ -109,7 +114,11 @@
      Fix pass 2026-09-16 (cold reader read «CTO» as «сто»): «CTO» → «техдиректор» everywhere visible — table «на месте
      техдиректора», label «Герой — / технический / директор», quote re-broken to 7 lines «ЗРИТЕЛЬ НЕ / СМОТРИТ СО /
      СТОРОНЫ / НА ТЕХДИРЕКТОРА. / ОН НА / МИНУТУ / СТАНОВИТСЯ ИМ.» — the long word sits over the short «ОН НА», so the
-     descender of «Д» clears the next line at the pin's pitch (over «СО СТОРОНЫ» it fused into «СТ»). */
+     descender of «Д» clears the next line at the pin's pitch (over «СО СТОРОНЫ» it fused into «СТ»).
+     Legibility pass 2026-09-17 (user rule): every label 19.3 → 30 px (bold caps). The photo table (label left / value
+     right, 4 rows) and the 3-row tagline are merged into one sentence in two 2-row blocks at the same left/top anchors:
+     «Его руками держит кликер, / его глазами видит отказ» · «его ушами слышит гудки — / и вместе с ним выдыхает».
+     The top block stays above the hand (y < 85). Field labels grow down from the pin's first row. */
   .s02 { background: #f4f4f4; color: #030303; }
   .s02 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s02 .ph { left: 0; top: 0; width: 848.3px; height: 1080px; object-fit: cover; object-position: 25% 50%; display: block; }
@@ -120,15 +129,15 @@
   .s02 .q7 { top: 989.23px; left: 864.3px; }
   .s02 .q.qm { left: 861px; font-size: 68px; }
 
-  .s02 .l { font-family: 'Inter Tight', sans-serif; font-weight: 760; font-size: 19.3px; letter-spacing: -0.025em; text-transform: uppercase; }
+  .s02 .l { font-family: 'Inter Tight', sans-serif; font-weight: 760; font-size: 30px; letter-spacing: -0.025em; text-transform: uppercase; }
   .s02 .w { color: #fff; }
   .s02 .ta { left: 864.3px; } .s02 .tb { left: 1511.8px; }
-  .s02 .t1 { top: 25.26px; } .s02 .t2 { top: 41.7px; } .s02 .t3 { top: 59px; }
-  .s02 .n1 { top: 384.2px; } .s02 .n2 { top: 400.23px; }
+  .s02 .t1 { top: 25.26px; } .s02 .t2 { top: 62.3px; } .s02 .t3 { top: 99.3px; }
+  .s02 .n1 { top: 384.2px; } .s02 .n2 { top: 421.2px; }
   .s02 .tl { left: 262.6px; } .s02 .tr { right: 1284.4px; }
-  .s02 .w1 { top: 23.5px; } .s02 .w2 { top: 40.8px; } .s02 .w3 { top: 58.1px; } .s02 .w4 { top: 75.4px; }
+  .s02 .w1 { top: 23.5px; } .s02 .w2 { top: 60.5px; } .s02 .w3 { top: 58.1px; } .s02 .w4 { top: 75.4px; }
   .s02 .bl { left: 263.3px; }
-  .s02 .b1 { top: 995.9px; } .s02 .b2 { top: 1013.2px; } .s02 .b3 { top: 1030.5px; }
+  .s02 .b1 { top: 995.9px; } .s02 .b2 { top: 1032.9px; } .s02 .b3 { top: 1030.5px; }
 
 /* ── s03.html ── */
 /* PILOT s03p · 02 Идея — meaning first, then the pin.
@@ -139,7 +148,11 @@
      numbers per photo and micro lines — no nav or counters to fill. Geometry is s07's (already measured on d32):
      canvas = crop × 3.0671.
      Fix pass 2026-09-16 (cold reader): title «„Выбери" / Прессинг» read as a strange title and «Поворот» was unexplained →
-     title «Акт первый: / Прессинг» (passed this gate on deck s07), label over photo 2 «Акт второй». */
+     title «Акт первый: / Прессинг» (passed this gate on deck s07), label over photo 2 «Акт второй».
+     Legibility pass 2026-09-17 (user rule): «Акт второй» 16.9 → 36 px; «Каждый бросает слово / прямо в объектив» 18.3 → 34 px;
+     the bottom-right micro (173 px wide slot — no room for readable type) is removed and its meaning moved, as «Камера
+     летит, / пространство открывается», under «Акт второй» in the empty field, mirroring the act-1 lines (same rows);
+     bottom-left micro merged into one 30-px line at the same left/top anchor. */
   .s03 { background: #fbfbfb; color: #111; }
   .s03 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s03 .ex  { text-box: trim-both ex alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
@@ -159,11 +172,11 @@
   .s03 .n  { font-size: 92px; letter-spacing: -0.01em; top: 737px; }
   .s03 .n1 { right: 975.3px; } .s03 .n2 { right: 52px; }
 
-  .s03 .mi { font-size: 18.3px; }
-  .s03 .a1 { left: 784px; top: 866.4px; } .s03 .a2 { left: 784px; top: 887.9px; }
-  .s03 .b1 { left: 45px; top: 1026px; }   .s03 .b2 { left: 45px; top: 1047.5px; }
-  .s03 .c1 { left: 1695px; top: 1026px; } .s03 .c2 { left: 1695px; top: 1047.5px; }
-  .s03 .yr { left: 1282.5px; top: 737.6px; font-size: 16.9px; }
+  .s03 .mi { font-size: 34px; }
+  .s03 .a1 { left: 784px; top: 866.4px; } .s03 .a2 { left: 784px; top: 908.4px; }
+  .s03 .d1 { left: 1282.5px; top: 866.4px; } .s03 .d2 { left: 1282.5px; top: 908.4px; }
+  .s03 .b1 { left: 45px; top: 1026px; font-size: 30px; }
+  .s03 .yr { left: 1282.5px; top: 737.6px; font-size: 36px; }
 
   .s03 .logo { left: 45px; top: 18.4px; font-family: 'Noto Serif Display', serif; font-weight: 800; font-size: 25px; color: #111; }
   .s03 .bur { left: 1840.3px; width: 27.6px; height: 3.07px; background: #9a9a9a; }
@@ -188,19 +201,23 @@
      Fix pass 2026-09-16 (cold reader read «CTO» as «сто»): giant word «ГЛАЗА CTO» → «ГЛАЗА ГЕРОЯ» (11 glyphs vs 9: same
      cap and both ink edges, fitted on Roboto Flex's real wdth axis 90 → 68 with tracking 0.065 → 0.039em); blurb line 1
      «глазами CTO» → «глазами техдиректора», which says who the hero is.
+     Legibility pass 2026-09-17 (user rule): blurb 14.2 → 34 px, two centred lines on the pin's centre x; the band starts
+     28 px under the pin's blurb, so the block keeps the pin's last baseline and grows UP into the empty field («оптика
+     18–24 мм» cut). Nav 11.6 → 20 px: at that size the pin's five slots hold four words — «Ползунок» dropped, first item
+     keeps the pin's left edge, the rest re-spaced; button box unchanged, its label «Только руки» → «Руки» to fit at 20 px.
      Colours: field #eeede7 · ink #20201f (eyedropped). */
   .s04 { background: #eeede7; color: #20201f; }
   .s04 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s04 .mark { left: 143.4px; top: 27px; width: 135px; height: 135px; overflow: visible; }
   .s04 .band { left: 163.66px; top: 276.7px; width: 1592.7px; height: 507.8px; object-fit: cover; object-position: 50% 85%; display: block; }
 
-  .s04 .nav { font-family: 'Inter', sans-serif; font-weight: 560; font-size: 11.6px; letter-spacing: 0.01em; top: 50.6px; text-transform: uppercase; }
-  .s04 .n1 { left: 1181.8px; } .s04 .n2 { left: 1267.1px; } .s04 .n3 { left: 1371.7px; } .s04 .n4 { left: 1471.2px; } .s04 .n5 { left: 1562.3px; }
+  .s04 .nav { font-family: 'Inter', sans-serif; font-weight: 560; font-size: 20px; letter-spacing: 0.01em; top: 48.4px; text-transform: uppercase; }
+  .s04 .n1 { left: 1181.8px; } .s04 .n2 { left: 1279px; } .s04 .n3 { left: 1406px; } .s04 .n4 { left: 1522px; }
   .s04 .btn { left: 1651.7px; top: 37.1px; width: 101.2px; height: 37.1px; background: #20201f; }
   .s04 .btn-t { left: 1651.7px; width: 101.2px; text-align: center; color: #eeede7; }
 
-  .s04 .blurb { font-family: 'Inter', sans-serif; font-weight: 520; font-size: 14.2px; letter-spacing: -0.005em; left: 2.5px; width: 1916.8px; text-align: center; }
-  .s04 .b1 { top: 216.6px; } .s04 .b2 { top: 236.9px; }
+  .s04 .blurb { font-family: 'Inter', sans-serif; font-weight: 520; font-size: 34px; letter-spacing: -0.005em; left: 2.5px; width: 1916.8px; text-align: center; }
+  .s04 .b1 { top: 178px; } .s04 .b2 { top: 223px; }
 
   .s04 .word { left: 152.3px; top: 813.2px; font-family: 'Roboto Flex', sans-serif; font-size: 322.8px; font-weight: 650;
                font-variation-settings: "wdth" 68, "wght" 650, "opsz" 144; letter-spacing: 0.039em; }
@@ -225,6 +242,10 @@
      as a plain continuation of the film's lines (a deliberate departure from the pin's grey #c3c3c3; geometry unchanged);
      the three «on-prem / облако / гибрид» lines are given to «первый / второй / третий коллега» so they read as three
      people speaking in turn, not as a menu. Header «CTO» (read as «сто») → «техдиректор».
+     Legibility pass 2026-09-17 (user rule): one size 18.6 px → header sentence 60 px (three lines, the pin's left edge and
+     last baseline kept, grows up into the empty left field), everything else 30 px. The table keeps only the plan's six
+     «кто — реплика» rows (ten extra film lines and the «Акт» / «Время» columns dropped to make room); header label/value
+     pairs on the left are merged («Герой — техдиректор») because a 30-px label runs into the pin's value column.
      Loops (both read before placing):
        v2-to-camera-2 (1280×720): poster re-cut at 2.375 s (refs-v2 poster_at) — the moment she looks straight into the
          lens, lips parted; face at frame x ≈ 430–600, eyes y ≈ 155, monitor starts at x ≈ 750.
@@ -234,7 +255,7 @@
          x 262–1020 · y 30–606 (×1.0435): face and shoulders, eyes on the lens. */
   .s05 { background: #f4f4f4; color: #050505; }
   .s05 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
-  .s05 .t { font-family: 'Inter Tight', sans-serif; font-weight: 740; font-size: 18.6px; letter-spacing: -0.04em; word-spacing: 0.1em; text-transform: uppercase; }
+  .s05 .t { font-family: 'Inter Tight', sans-serif; font-weight: 740; font-size: 30px; letter-spacing: -0.04em; word-spacing: 0.1em; text-transform: uppercase; }
   .s05 .ph1 { left: 261px; top: 461px; width: 589px; height: 601px; overflow: hidden; }
   .s05 .ph1 video { position: absolute; left: -572.2px; top: 0; width: 2154.1px; height: 1211.7px; display: block; }
   .s05 .ph2 { left: 869px; top: 461px; width: 791px; height: 601px; overflow: hidden; }
@@ -242,8 +263,12 @@
 
   .s05 .x1 { left: 262px; } .s05 .x2 { left: 373px; } .s05 .x3 { left: 869.5px; } .s05 .xr { right: 261.5px; }
   .s05 .no { right: 1072.5px; } .s05 .ti { left: 869.5px; } .s05 .pr { left: 1388.5px; } .s05 .le { right: 261.5px; }
-  .s05 .h1 { top: 19px; } .s05 .h2 { top: 36px; } .s05 .th { top: 133px; }
-  .s05 .lb1 { top: 408px; } .s05 .lb2 { top: 425px; }
+  .s05 .h1 { top: 19px; } .s05 .h2 { top: 56px; } .s05 .th { top: 133px; }
+  .s05 .big { font-size: 60px; }
+  .s05 .big.x1 { left: 259px; } .s05 .x1.h1, .s05 .x1.h2 { left: 260px; }  /* side bearings grow with the size: ink stays on the pin's 262 */
+  /* column heads are secondary: 22 px grey (5.0:1 on the field) so they do not read as the first row */
+  .s05 .hd { font-size: 22px; color: #6b6b6b; }
+  .s05 .lb1 { top: 259px; } .s05 .lb2 { top: 327px; } .s05 .lb3 { top: 395px; }
 
 /* ── s06.html ── */
 /* deck-v2 s06 · 04 Лицо героя — meaning first, then the pin.
@@ -283,7 +308,7 @@
   .s06 .par { top: 394.7px; width: 41.5px; height: 294.7px; overflow: visible; }
   .s06 .pl { left: 251.4px; } .s06 .pr { left: 1172px; }
 
-  .s06 .mi { top: 704.1px; font-size: 28.7px; font-variation-settings: "wdth" 75, "wght" 400; font-weight: 400; }
+  .s06 .mi { top: 704.1px; font-size: 38px; font-variation-settings: "wdth" 75, "wght" 400; font-weight: 400; }
   .s06 .m1 { left: 253.05px; } .s06 .m2 { left: 489px; font-weight: 700; font-variation-settings: "wdth" 75, "wght" 700; }
   .s06 .m3 { left: 856px; } .s06 .m4 { right: 252px; font-variation-settings: "wdth" 75, "wght" 400, "slnt" -10; }
 
@@ -293,7 +318,7 @@
   .s06 .nav .pa { font-size: 27.9px; position: relative; top: 1.35px; }
   .s06 .ico { left: 1575px; top: 20px; width: 100px; height: 40px; overflow: visible; }
   .s06 .btn { left: 816.3px; top: 1000.6px; width: 285.5px; height: 54.3px; background: #f0f6f7; border: 1.2px solid #141414; }
-  .s06 .btn-t { left: 816.3px; width: 285.5px; top: 1020.7px; text-align: center; color: #141414; font-size: 19.7px;
+  .s06 .btn-t { left: 816.3px; width: 285.5px; top: 1020.7px; text-align: center; color: #141414; font-size: 20px;
                 font-weight: 700; font-variation-settings: "wdth" 55, "wght" 700; }
 
 /* ── s07.html ── */
@@ -313,8 +338,8 @@
      10 letters as «НАГНЕТАНИЕ» opposite; «ВЫДОХ» already labels the photo from below). */
   .s07 { background: #f93822; color: #161616; }
   .s07 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
-  .s07 .mic { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 16.5px; }
-  .s07 .bold { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 18.4px; }
+  .s07 .mic { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 32px; }
+  .s07 .bold { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 36px; }
   .s07 .lab { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 28.94px; }
   .s07 .wm { font-family: 'Roboto Flex', sans-serif; font-size: 115.66px; font-weight: 1000; }
   .s07 .just { text-align: justify; text-align-last: justify; white-space: normal; }
@@ -349,11 +374,12 @@
      object-position 51 % keeps the long table running to the chairman at its head with executives on both sides. */
   .s08 { background: #ffffff; color: #030303; }
   .s08 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
-  .s08 .mono { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 18.2px; text-transform: uppercase; color: #111; }
+  .s08 .mono { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 34px; text-transform: uppercase; color: #111; }
   .s08 .h { top: 18.9px; }
   .s08 .h1 { left: 196.5px; } .s08 .h2 { left: 644.1px; } .s08 .h3 { left: 1017.2px; } .s08 .h4 { right: 258.7px; }
   .s08 .bur { left: 1690px; width: 37.3px; height: 2.4px; background: #1a1a1a; }
-  .s08 .f { top: 1046px; }
+  /* legibility pass 2026-09-17: mono 18.2 → 34 px; header keeps its cap top 18.9 and x anchors, footer keeps its baseline 1058.7 and grows upward */
+  .s08 .f { top: 1035px; }
   .s08 .f1 { left: 194px; } .s08 .f2 { right: 194px; }
 
   .s08 .big { top: 283.5px; font-family: 'Roboto Flex', sans-serif; font-size: 724.6px; color: #030303; }
@@ -388,7 +414,9 @@
   .s09 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s09 .rf { font-family: 'Roboto Flex', sans-serif; }
 
-  .s09 .nav { top: 104.6px; font-size: 23.75px; font-weight: 560; font-variation-settings: "wdth" 151, "wght" 560; }
+  /* legibility pass 2026-09-17: nav 23.75 → 30 px; slots 2–4 merged into one run from the pin's x 839 (the separate slots
+     hold ≤ 119 px), the last clause keeps the pin's right edge; cap top 104.6 kept */
+  .s09 .nav { top: 104.6px; font-size: 30px; font-weight: 560; font-variation-settings: "wdth" 151, "wght" 560; }
   .s09 .dim { color: #cccccc; font-weight: 480; font-variation-settings: "wdth" 151, "wght" 480; }
   .s09 .n1 { left: 162.5px; } .s09 .n2 { left: 839px; } .s09 .n3 { left: 972px; } .s09 .n4 { left: 1115px; }
   .s09 .n5 { right: 160px; }  /* «темнеет»: т has a wider right bearing than the old «окном» — ink right on the pin's */
@@ -422,6 +450,13 @@
   .s10 { background: #ffffff; color: #111; }
   .s10 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s10 .t { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 14.54px; }
+  /* legibility pass 2026-09-17 (user rule): the pin's one 14.5-px size is overridden — title 56, scene text 34, labels and
+     the top-right note 22. Anchors kept: ink left 102.9, title cap top 13.2, label cap tops 756.6 / 927.4 / 1013.7, last
+     baseline ≈ 1068, top-right ink right 1814.3. Copy = the plan's text; «Каждый говорит… ждёт одного слова» (s05 says it)
+     is cut, label 1 is «Акт 1» (moved from the top right) so the sentence can start with its subject, the «Вопрос» block carries «Люди другие — вопрос тот же». Top right is one line so it clears the photo. */
+  .s10 .h { font-size: 56px; }
+  .s10 .b { font-size: 34px; }
+  .s10 .s { font-size: 22px; }
   .s10 .lt { color: #c9c9c9; }
   .s10 .l { left: 102.9px; }
   .s10 .r { right: 105.7px; }
@@ -452,29 +487,38 @@
      the frame is letterboxed, picture rows 74–646, so it is placed by hand at ×1.7016 with the bars outside the box, window
      x 466–923: the woman facing us, the bottle, a man's back; «качают головой» ends before his head, НЕТ sits on his back).
      Fix pass 2026-09-16 (cold reader didn't know «синхрон»): row 2 «Синхронно» → «Одновременно» (ends ≈ 70 px before НЕТ;
-     «Хором» would suggest voices, the beat is silent head-shaking). */
+     «Хором» would suggest voices, the beat is silent head-shaking).
+     Legibility pass 2026-09-17 (user rule: important text must read on a laptop and a phone — the pin's type SIZE is
+     overridden, anchors kept): the labels over the photos are the meaning → 16.1 → 34 px. At 34 px the pin's four-column
+     row no longer fits on the pictures («за слайдом» would run over her pointing wrist, «качают головой» into the man's
+     head), so each pair is stacked at its first anchor: «Слайд / за слайдом» at 190.8, «Пятеро / качают головой» at 971.8
+     (second line +40). Left loop object-position 72.3 → 66 % (picture +60 px right) so her hair clears the stack and the
+     hand, the marker and the red line stay in the box. «Одновременно» at 34 px would run into НЕТ, and white «Все разом» in that slot measured 1.2–1.4:1 on the striped shirt → it is the third line of the right stack, black on the blinds (the slot beside НЕТ stays empty).
+     Nav 16.1 → 20 px, «Кликер в руке» merged into the first item (at 20 px the first item alone reaches the second
+     anchor). Footer 16.1 → 22 px and merged into one sentence at the left anchor (it was split across the page width). */
   .s11 { background: #fff; color: #000; }
   .s11 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s11 .strip { left: 179.1px; top: 1009.1px; width: 1556px; height: 36.9px;
     background: linear-gradient(90deg, #606060 0.2%, #757575 8.3%, #9c9c9c 19.6%, #b2b2b2 30.9%, #b5b5b5 42.3%,
       #9b9b9b 51.7%, #525252 61.1%, #3f3f3f 70.6%, #404040 80%, #414141 89.4%, #272727 98.9%); }
 
-  .s11 .micro { font-family: 'Inter', sans-serif; font-size: 16.1px; font-weight: 500; letter-spacing: 0; text-transform: uppercase; }
-  .s11 .foot-r { text-transform: none; }
+  .s11 .micro { font-family: 'Inter', sans-serif; font-size: 20px; font-weight: 500; letter-spacing: 0; text-transform: uppercase; }
+  .s11 .lab { font-size: 34px; }
+  .s11 .ft { font-size: 22px; }
   .s11 .w { color: #fff; }
   .s11 .re { font-family: 'Inter Tight', sans-serif; font-size: 269.6px; font-weight: 450; letter-spacing: -0.01em; color: #fff; }
 
   .s11 .n1 { left: 190.8px; top: 8.8px; }  .s11 .n2 { left: 581.3px; top: 8.8px; }
   .s11 .n3 { left: 971.8px; top: 8.8px; }  .s11 .n4 { left: 1365.2px; top: 8.8px; }
   .s11 .n5 { right: 196.7px; top: 8.8px; }
-  .s11 .a1 { left: 190.8px; top: 378.7px; } .s11 .a2 { left: 581.3px; top: 378.7px; }
-  .s11 .a3 { left: 971.8px; top: 378.7px; } .s11 .a4 { left: 1362.2px; top: 378.7px; }
+  .s11 .a1 { left: 190.8px; top: 378.7px; } .s11 .a1b { left: 190.8px; top: 418.7px; }
+  .s11 .a3 { left: 971.8px; top: 378.7px; } .s11 .a3b { left: 971.8px; top: 418.7px; } .s11 .a3c { left: 971.8px; top: 458.7px; }
   .s11 .b1 { left: 190.8px; top: 719.3px; } .s11 .b2 { left: 581.3px; top: 719.3px; }
   .s11 .b3 { left: 971.8px; top: 719.3px; }
   .s11 .re { right: 247.5px; top: 718.3px; }
   .s11 .f1 { left: 190.8px; top: 1056.9px; } .s11 .f2 { left: 1365.2px; top: 1057.5px; }
 
-  .s11 .pl { left: 179.1px; top: 34.1px; width: 778px; height: 975px; object-fit: cover; object-position: 72.3% 50%; display: block; }
+  .s11 .pl { left: 179.1px; top: 34.1px; width: 778px; height: 975px; object-fit: cover; object-position: 66% 50%; display: block; }
   .s11 .wr { left: 957.1px; top: 34.1px; width: 778px; height: 975px; overflow: hidden; }
   .s11 .wr video { position: absolute; left: -793px; top: -125.9px; width: 2178px; height: 1225.2px; display: block; }
 
@@ -502,23 +546,32 @@
      The plan text is ~150 characters against the pin's ~530, so the two paragraphs keep the pin's measure and
      their tops but run 2 + 2 lines; the list holds the plan's 3 items. Face: IBM Plex Mono (deck system).
      Loop v2-pizza-pull-2 is letterboxed (active 960×584 at 160,68): the box crops inside the bars — rows 69–650
-     scaled 1.402×, source x 190–697 (hand, slice, the box's edge). Crop only, no grade. */
+     scaled 1.402×, source x 190–697 (hand, slice, the box's edge). Crop only, no grade.
+     Legibility pass 2026-09-17 (user rule: important text must read on a laptop and a phone — the pin's type SIZE is
+     overridden, anchors kept). Important: the scene sentence (two paragraphs) 15 → 30 px, same anchors (left 1029.2,
+     tops 400.9 / 509.1), 2 + 2 lines re-broken to the pin's page measure (≤ 34 characters), pitch 38; the word over the
+     photo 30 → 44 px on its centre axis; the meta rows (time, act, the key claim) 15.6 → 26 px mono caps, second line
+     of row 1 moved from 36.9 to 51.8 for the larger cap. To fit the columns at 26 px: «Коллеги, в объектив» → «Коллеги»
+     (the camera column already says whose eyes), «Единственная тёплая секунда» → «Тёплая секунда» (the full claim is in
+     the paragraph). Secondary: heads «Замысел» / «В сцене» and the list 15 → 22 px, list pitch 28. */
   .s12 { background: #f7f5f6; color: #000; }
   .s12 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s12 .mono { font-family: 'IBM Plex Mono', monospace; }
-  .s12 .k { font-weight: 500; font-size: 15.6px; letter-spacing: 0; color: #000; }
+  .s12 .k { font-weight: 500; font-size: 26px; letter-spacing: 0; color: #000; }
+  .s12 .hd { font-size: 22px; }
   .s12 .c1 { left: 307px; } .s12 .c2 { left: 586.7px; } .s12 .c3 { left: 1029.2px; } .s12 .c4 { left: 1312.3px; }
-  .s12 .r1 { top: 17.8px; } .s12 .r2 { top: 36.9px; } .s12 .r3 { top: 235.5px; }
+  .s12 .r1 { top: 17.8px; } .s12 .r2 { top: 51.8px; } .s12 .r3 { top: 235.5px; }
 
   .s12 .ph { left: 295px; top: 264.05px; width: 710.3px; height: 815.95px; overflow: hidden; }
   .s12 .ph video { position: absolute; left: -266.4px; top: -96.74px; width: 1794.5px; height: 1009.4px; display: block; }
-  .s12 .ov { left: 295px; width: 710.3px; top: 641.1px; text-align: center; font-weight: 400; font-size: 30px;
-             letter-spacing: 4.4px; color: #eeebe6; }
+  .s12 .ov { left: 295px; width: 710.3px; top: 641.1px; text-align: center; font-weight: 400; font-size: 44px;
+             letter-spacing: 6.4px; color: #eeebe6; }
 
-  .s12 .t { font-weight: 500; font-size: 15px; letter-spacing: -0.6px; color: #5f5d5e; }
+  .s12 .t { font-weight: 500; font-size: 30px; letter-spacing: -1px; color: #1d1c1c; } /* 2026-09-17 legibility: the pin grey read too pale at phone size */
+  .s12 .li { font-size: 22px; letter-spacing: -0.6px; }
   .s12 .d { top: 372.3px; } .s12 .sv { top: 767.2px; }
-  .s12 .p1 { top: 400.9px; } .s12 .p2 { top: 418.7px; } .s12 .p3 { top: 509.1px; } .s12 .p4 { top: 526.9px; }
-  .s12 .l1 { top: 797.0px; } .s12 .l2 { top: 814.8px; } .s12 .l3 { top: 832.7px; }
+  .s12 .p1 { top: 400.9px; } .s12 .p2 { top: 438.9px; } .s12 .p3 { top: 509.1px; } .s12 .p4 { top: 547.1px; }
+  .s12 .l1 { top: 797.0px; } .s12 .l2 { top: 825px; } .s12 .l3 { top: 853px; }
   .s12 .arrow { left: 1585px; top: 1049px; width: 18px; height: 16px; overflow: visible; }
 
 /* ── s13.html ── */
@@ -539,7 +592,12 @@
      each face in the 1.47 box. No tint.
      Fix pass 2026-09-16 (cold reader): sit-down-5 (a street café) contradicted «один стул» → friendly-expert-4, a woman at
      an office desk facing her visitor across it. The micro row was near-invisible (#b4b4b4, 10.5 px) → #5a5a5a, 500, 12 px
-     (same cap top and ink-left; a deliberate departure from the pin's pale grey), «Акт 1» → «Акт первый: прессинг». */
+     (same cap top and ink-left; a deliberate departure from the pin's pale grey), «Акт 1» → «Акт первый: прессинг».
+     Legibility pass 2026-09-17 (user rule: important text must read on a laptop and a phone — the pin's type SIZE is
+     overridden, anchors kept). The footer columns carry the whole mechanic, so heads 15.4 → 28 px and items 13.6 → 28 px
+     (caps, same faces and weights, same ink-lefts, head cap top 840.3 and first item top 876.0 kept; item pitch 26.7 → 38).
+     Column 1 now says the trick in one sentence: «Трое по очереди / садятся на один стул» (was three fragments; «Каждый —
+     в камеру» dropped — column 4 says it). Micro row 12 → 20 px (secondary, same cap top and ink-lefts). */
   .s13 { background: #fff; color: #030303; }
   .s13 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s13 .loop { top: 21.64px; width: 588.22px; height: 399.79px; object-fit: cover; display: block; border-radius: 3.5px; }
@@ -551,11 +609,11 @@
                font-variation-settings: "wdth" 62, "wght" 1000, "opsz" 144; letter-spacing: 0.03em; word-spacing: -0.06em; }
 
   .s13 .f { font-family: 'Inter', sans-serif; text-transform: uppercase; }
-  .s13 .h { font-weight: 700; font-size: 15.4px; top: 840.3px; }
-  .s13 .i { font-weight: 560; font-size: 13.6px; letter-spacing: -0.012em; }
-  .s13 .m { font-weight: 500; font-size: 12px; top: 1061.9px; color: #5a5a5a; }
+  .s13 .h { font-weight: 700; font-size: 28px; letter-spacing: -0.01em; top: 840.3px; }
+  .s13 .i { font-weight: 560; font-size: 28px; letter-spacing: -0.012em; }
+  .s13 .m { font-weight: 500; font-size: 20px; top: 1061.9px; color: #5a5a5a; }
   .s13 .c1 { left: 64.93px; } .s13 .c2 { left: 516.94px; } .s13 .c3 { left: 968.92px; } .s13 .c4 { left: 1420.9px; }
-  .s13 .r1 { top: 875.97px; } .s13 .r2 { top: 902.71px; } .s13 .r3 { top: 929.44px; }
+  .s13 .r1 { top: 875.97px; } .s13 .r2 { top: 913.97px; } .s13 .r3 { top: 951.97px; }
   .s13 .m2 { left: 519.5px; } .s13 .m3 { left: 976.56px; }
 
 /* ── s14.html ── */
@@ -572,6 +630,12 @@
      body (source x 480–960, y 340–670) and the round speaker sit right of the card, the nose, mouth and glasses above it;
      the blurred wall carries the logo, ring and card. Crop only, no grade.
      Contrast on the shot: logo #fafafa on #363125 ≈ 12.4:1 · burger #fff on #5a352e ≈ 10.6:1 · ring #fff on #443d2b ≈ 10.8:1.
+     Legibility pass 2026-09-17 (user rule: important text must read on a laptop and a phone — the pin's type SIZE is
+     overridden, anchors kept). Both card texts are the meaning. Title 26.4 → 44 px (same left 155.2 and first cap top
+     821.3, pitch 24.7 → 52). The hold-music line 13.5 → 26 px caps: at that size it needs two lines, so the pin's link
+     slot (cap top 999.8, underline) holds the last line «Потом — короткие гудки „занято“» and the melodies stand one
+     line above it (cap top 961.8), same left 153.8: «Музыка на линии: боссанова, скрипки, синтипоп» (the longer «На линии — три мелодии: …» ran 58 px past the card). Width axis
+     118 → 100 so the longer line stays inside the card. The card, logo, ring, burger and photo are untouched.
      ── deck s14 notes ──
      Slide 14 · 11 Провайдер — 1:1 on pin d76 (MIKOS: face close-up full-bleed + small light card),
      reference = /boards/golomazova-danya/design-refs/crops/d76-169.png (699×393). Canvas factor k = 1920 / 699 = 2.746781.
@@ -603,13 +667,14 @@
   .s14 .ring { left: 597.05px; top: 362.75px; width: 34.3px; height: 34.3px; overflow: visible; }
 
   .s14 .card { left: 131.3px; top: 796.3px; width: 797.4px; height: 238.1px; background: #eeeeee; }
-  .s14 .ct { font-family: 'Roboto Flex', sans-serif; font-size: 26.4px; font-weight: 420; color: #1a1a1a;
-             font-variation-settings: "wdth" 110, "wght" 420, "opsz" 24; }
+  .s14 .ct { font-family: 'Roboto Flex', sans-serif; font-size: 44px; font-weight: 420; color: #1a1a1a;
+             font-variation-settings: "wdth" 110, "wght" 420, "opsz" 44; }
   .s14 .c1 { left: 155.2px; top: 821.3px; }
-  .s14 .c2 { left: 155.2px; top: 846px; }
-  .s14 .cta { left: 153.8px; top: 999.8px; font-family: 'Roboto Flex', sans-serif; font-size: 13.5px; font-weight: 620; color: #222;
-              text-transform: uppercase; font-variation-settings: "wdth" 118, "wght" 620, "opsz" 12;
-              padding-bottom: 3.2px; border-bottom: 1.6px solid #222; }
+  .s14 .c2 { left: 155.2px; top: 873.3px; }
+  .s14 .cta { left: 153.8px; top: 999.8px; font-family: 'Roboto Flex', sans-serif; font-size: 26px; font-weight: 620; color: #222;
+              text-transform: uppercase; font-variation-settings: "wdth" 100, "wght" 620, "opsz" 26;
+              padding-bottom: 4px; border-bottom: 2px solid #222; }
+  .s14 .cta0 { top: 961.8px; padding-bottom: 0; border-bottom: 0; }
 
 /* ── s15.html ── */
 /* PILOT s15p · 12 Выбери ИИ — meaning first, then the pin.
@@ -622,7 +687,13 @@
      are gated, so «ИИ. | ИИ.» keeps the pin's left and right ink edges.
      Fix pass (cold reader: «ТОЛПА / СТЕКЛО» added nothing): the nav names the beat in order — «ВЫБЕРИ ИИ (12)» · «АКТ 1» ·
      «ГЛАВНЫЙ ПАНЧ РОЛИКА» · «НОУТБУК» · «ТОЛПА». «ТОЛПА ЗА СТЕКЛОМ» (245 px) would start at x 1629, inside «НОУТБУК»
-     (x 1594–1707); «за стеклом» stays in the paragraph. */
+     (x 1594–1707); «за стеклом» stays in the paragraph.
+     Legibility pass 2026-09-17 (user rule: important text must read on a laptop and a phone — the pin's type SIZE is
+     overridden, anchors kept). The paragraph carries the whole scene: 22.2 → 32 px, same left 920.5 and first cap top
+     343.7, same faces. At 32 px the pin's 296-px measure would take nine lines and run down over the photo, so the block
+     grows to the right into the empty field instead: 4 lines, pitch 36 — the last cap bottom is 474.4, just above the
+     photo's top edge (475.2). Copy re-broken into four even lines («и», «но» dropped, «это» added). The block stays
+     justified like the pin's (measure 546 = the longest line, word gaps grow ≤ 12 px), last line left as in the pin. */
   .s15 { background: #a4a39b; color: #0f0f0f; }
   .s15 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s15 .lh  { line-height: 1; white-space: nowrap; margin: 0; }
@@ -646,11 +717,10 @@
   .s15 .win  { left: 562.8px; top: 475.2px; width: 382.2px; height: 476.9px; overflow: hidden; }
   .s15 .win video { position: absolute; left: -575px; top: 0; width: 974.1px; height: 608.8px; object-fit: fill; display: block; max-width: none; }
 
-  .s15 .q { left: 920.5px; width: 296.3px; font-family: 'Roboto Flex', sans-serif; font-size: 22.2px;
+  .s15 .q { left: 920.5px; width: 546px; font-family: 'Roboto Flex', sans-serif; font-size: 32px;
             font-variation-settings: "wdth" 60, "wght" 720; text-align: justify; text-align-last: justify; white-space: nowrap; }
-  .s15 .q .sf { font-size: 22.2px; }
-  .s15 .q1 { top: 343.7px; } .s15 .q2 { top: 363px; } .s15 .q3 { top: 382.2px; left: 918.5px; width: 298.3px; } /* serif Т sits 2 px in from its origin */
-  .s15 .q4 { top: 401.5px; } .s15 .q5 { top: 420.8px; } .s15 .q6 { top: 440.1px; text-align-last: left; }
+  .s15 .q .sf { font-size: 32px; }
+  .s15 .q1 { top: 343.7px; } .s15 .q2 { top: 379.7px; } .s15 .q3 { top: 415.7px; } .s15 .q4 { top: 451.7px; text-align-last: left; }
 
   .s15 .big { top: 747.8px; font-family: 'Roboto Flex', sans-serif; font-size: 382px; color: #0c0c0c;
               font-variation-settings: "wdth" 30, "wght" 800, "opsz" 144; }
@@ -742,6 +812,9 @@
      Copy: the brief's statement «Выбери „пора в отпуск“… Или…» is 28 characters; at the pin's size it closes the §13 prose, which fills
      the pin's 5 lines. The paragraph is the treatment's own blinds text (§05, §04, §26), no new facts. «(05)» → «(13)», «Read More» → «Тишина.»
      Faces (deck system): Inter Tight 600 statement / mark, Inter 500 small text. No transform on type. */
+  /* LEGIBILITY PASS 2026-09-17 (user rule): type enlarged beyond the pin. Paragraph 22.3 → 34 px (anchor left 761.5 / cap top 798.95),
+     link 24.8 → 34 px (anchor left 119.6 + the pin underline row 1058; the cap top rises to 1031.6). Index «(13)» removed: a 13 px counter
+     with no meaning. Statement, quote mark and photo untouched. */
   .s17 { background: #ffffff; color: #050505; }
   .s17 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
 
@@ -756,10 +829,10 @@
   .s17 .sm   { font-family: 'Inter', sans-serif; font-weight: 600; }
   .s17 .idx  { left: 117.0px; top: 597.4px; font-size: 13.2px; font-weight: 600; }
   .s17 .ph   { left: 761.2px; top: 595.6px; width: 179.9px; height: 179.9px; object-fit: cover; object-position: 85% 50%; display: block; }
-  .s17 .para { left: 761.5px; top: 798.95px; width: 612px; font-size: 22.3px; line-height: 24.11px;
+  .s17 .para { left: 761.5px; top: 798.95px; width: 760px; font-size: 34px; line-height: 41px;
                text-box: trim-both cap alphabetic; margin: 0; white-space: normal; }
   /* underline: pin row 588 = canvas 1058.1–1059.9 → a whole 2-px border at 1058 (1.8 px would snap to 1 device px and read grey) */
-  .s17 .more { left: 119.6px; top: 1038.3px; font-size: 24.8px; padding-bottom: 1.67px; border-bottom: 2px solid #050505; }
+  .s17 .more { left: 119.6px; top: 1031.6px; font-size: 34px; padding-bottom: 1.67px; border-bottom: 2px solid #050505; }
 
 /* ── s18.html ── */
 /* v2 s18 · 14 Поворот — meaning first, then the pin.
@@ -784,29 +857,32 @@
      кабинет днём. / Один щелчок.» keeps the pin's 4 lines.
      Loops: left v2-night-office-1 (1280×720) — dark open space, dusk windows, one silhouette at the far desk;
             right daylight-flood-6 (1280×720) — low sun through vertical blinds, two women at desks. */
+  /* LEGIBILITY PASS 2026-09-17 (user rule): type enlarged beyond the pin. Anchors kept: rows left 771.6 / right col ends 982.7,
+     row 1 cap top ≈ pin, paragraph left 771.2, foot left 771.6 + bottom edge. Tab grows down to hold the two 26 px rows.
+     Removed: X / Y glyph letters and the clock (10 px micro) — the 35″ timing moved into the foot. Squares stay. */
   .s18 { background: #1c1c1c; color: #dcddd9; }
   .s18 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s18 .ph  { top: 0; width: 960px; height: 1080px; object-fit: cover; display: block; }
   .s18 .ph1 { left: 0;     object-position: 42% 50%; }
   .s18 .ph2 { left: 960px; object-position: 88% 50%; }  /* sun stripes on the wall, monitors, the woman in green whole */
   .s18 .card { left: 763.1px; top: 25.9px; width: 392.1px; height: 1028.1px; border-radius: 9.7px; background: rgba(8, 9, 7, .94); }
-  .s18 .tab  { left: 768.0px; top: 31.6px; width: 218.7px; height: 36.5px; border-radius: 4.9px; background: #32332f; }
-  .s18 .mono { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 10.3px; color: #e6e7e3; }
+  .s18 .tab  { left: 768.0px; top: 31.6px; width: 218.7px; height: 68px; border-radius: 4.9px; background: #32332f; }
+  .s18 .mono { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 26px; color: #e6e7e3; }
   .s18 .sq   { top: 50.2px; width: 14.6px; height: 14.6px; background: #dcddd9; }
 
-  .s18 .r1  { top: 38.9px; }  .s18 .r2 { top: 53.5px; }  .s18 .r3 { top: 77.8px; }  .s18 .r4 { top: 92.4px; }
+  .s18 .r1  { top: 39.5px; }  .s18 .r2 { top: 72px; }  .s18 .r3 { top: 114px; }  .s18 .r4 { top: 146.5px; }
   .s18 .lft { left: 771.6px; }
   .s18 .rc  { right: 937.3px; }
   .s18 .clk { right: 773.7px; }
   .s18 .gx  { left: 1000.5px; top: 54.3px; }
   .s18 .gy  { left: 1118.8px; top: 54.3px; }
 
-  .s18 .lab  { left: 771.6px; top: 151.5px; font-size: 9.3px; }
-  .s18 .serif { font-family: 'Noto Serif Display', serif; font-weight: 500; font-variation-settings: "wdth" 100; font-size: 22.7px;
-                color: #e9eae6; line-height: 25.92px; text-box: trim-both cap alphabetic; margin: 0; }
-  .s18 .para  { left: 771.2px; top: 166.9px; width: 340px; white-space: normal; }
-  .s18 .cont  { left: 771.2px; top: 357.3px; white-space: nowrap; }
-  .s18 .foot  { left: 771.6px; top: 990.8px; line-height: 15.39px; text-box: trim-both cap alphabetic; margin: 0; white-space: nowrap; }
+  .s18 .lab  { left: 771.6px; top: 204px; font-size: 22px; color: #a9aaa6; }
+  .s18 .serif { font-family: 'Noto Serif Display', serif; font-weight: 500; font-variation-settings: "wdth" 100; font-size: 35px;
+                color: #e9eae6; line-height: 42px; text-box: trim-both cap alphabetic; margin: 0; }
+  .s18 .para  { left: 771.2px; top: 244px; width: 378px; white-space: normal; }
+  .s18 .cont  { left: 771.2px; top: 640px; white-space: nowrap; font-size: 26px; line-height: 32px; color: #c9cac6; }
+  .s18 .foot  { left: 771.6px; bottom: 35.5px; line-height: 33px; text-box: trim-both cap alphabetic; margin: 0; white-space: nowrap; }
 
 /* ── s19.html ── */
 /* v2 s19 · 15 Портал — meaning first, then the pin.
@@ -827,6 +903,8 @@
      the screen shows a woman crouching in a green field under a sky. The video is sized so the picture alone covers the canvas
      (×2.01493 → 2579.1 × 1450.7, top −185.4), bars pushed out; left offset −659 (the right end of the picture): measured over offsets −659…−250, it keeps every glyph's median contrast ≥ 5:1 — the screen is wider than the gap between Р and Т, so no offset clears it fully.
      Inset (under 300 px → still): the world inside the screen, cropped from the same poster. */
+  /* LEGIBILITY PASS 2026-09-17 (user rule): the six mono blocks carry the move — 17.9 → 28 px caps (cap 19.6), pitch 36.
+     Anchors kept: every block left edge; top blocks + side blocks keep line-1 cap top; the two bottom blocks keep their last baseline. */
   .s19 { background: #0b0b0b; color: #fafafa; }
   .s19 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s19 .bgw { left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; }
@@ -845,7 +923,7 @@
   .s19 .g5 { left: 9.5px;    top: 770.2px; }  /* А: the left foot serif is the ink edge (pin O at 7) */
   .s19 .g6 { right: 23.6px;  top: 772.0px; }  /* 1 pin px lower: the pin «3» overshoots to 579 */
 
-  .s19 .mono { font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 17.9px; color: #fafafa;
+  .s19 .mono { font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 28px; color: #fafafa;
                line-height: 1; white-space: nowrap; margin: 0; }
 
 /* ── s20.html ── */
@@ -860,23 +938,27 @@
      Loop p-cv-2 (650×720, cut from cv-overlay's close-up above the t-shirt print): a face inside a thin green tracking
      frame with a close button; 0.903 vs the box's 0.905, so cover crops nothing that matters.
      Fix pass 2026-09-16 (cold reader didn't know «бегунок»): left column line 5 «бегунки,» → «ползунки,». */
+  /* LEGIBILITY PASS 2026-09-17 (user rule): type enlarged beyond the pin. Columns (the rules) 16.1 → 30 px caps, pitch 36 (26 px was still thin at phone size), cut from
+     8 to 6 lines each so they end above the canvas edge (anchors: column lefts 1137.7 / 1416.9, line-1 cap top 830.8); «моно-лейблы,
+     ползунки» → «подписи» (no jargon). Byline (the act fact) 11.6 → 28 px, centre + line-1 cap top kept. Section label 11.6 → 22 px, centre kept. */
   .s20 { background: #2fe39a; color: #000; }
   .s20 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s20 .photo { left: 0; top: 0; width: 976.9px; height: 1080px; object-fit: cover; object-position: 50% 50%; display: block; }
 
   .s20 .ctr { width: 800px; text-align: center; }
   .s20 .mono { font-family: 'IBM Plex Mono', monospace; font-weight: 500; text-transform: uppercase; }
-  .s20 .tiny { font-size: 11.6px; }
+  .s20 .tiny { font-size: 22px; }
+  .s20 .by { font-size: 28px; }
   .s20 .ttl { font-family: 'Roboto Flex', sans-serif; font-size: 197.8px; font-weight: 620; text-transform: uppercase;
               font-variation-settings: "wdth" 25, "wght" 620, "opsz" 144, "YTDE" -98; letter-spacing: 0; margin: 0; }
-  .s20 .col { font-size: 16.1px; line-height: 19.78px; white-space: pre; text-box: trim-both cap alphabetic; margin: 0; }
+  .s20 .col { font-size: 30px; line-height: 36px; white-space: pre; text-box: trim-both cap alphabetic; margin: 0; }
 
   .s20 .m1 { left: 1000.8px; top: 38.1px; }
   .s20 .t1 { left: 1001.9px; top: 86.5px; }
   .s20 .t2 { left: 1001.9px; top: 238.8px; }
   .s20 .t3 { left: 1001.9px; top: 388.8px; }
   .s20 .by1 { left: 1000.8px; top: 670.4px; }
-  .s20 .by2 { left: 1000.8px; top: 684.2px; }
+  .s20 .by2 { left: 1000.8px; top: 706.4px; }
   .s20 .cl { left: 1137.7px; top: 830.8px; }
   .s20 .cr { left: 1416.9px; top: 830.8px; }
 
@@ -916,11 +998,14 @@
   .s21 .ins { left: 915.7px; top: 771.1px; width: 121.4px; height: 150.4px; overflow: hidden; }
   .s21 .ins img { position: absolute; left: 0; top: -147.95px; width: 350.1px; height: 406.6px; max-width: none; display: block; }  /* ×0.5647, x 0–215, y 262–528 */
 
-  .s21 .n { font-family: 'Inter', sans-serif; font-size: 13.3px; font-weight: 600; letter-spacing: -0.005em; top: 13.5px; }
-  .s21 .brand { font-weight: 720; text-transform: uppercase; left: 110px; top: 15.4px; }
-  .s21 .a1 { left: 335.4px; } .s21 .a2 { left: 570.3px; }    /* the pin's item gap 17 crop = 32.8 after a1's ink end 537.5 */
-  .s21 .r1 { right: 281.7px; } .s21 .r2 { right: 106px; }  /* Search–Cart gap 30 crop = 57.8; r2 ink (the full stop) ends on Cart's «)» at 937 crop */
-  .s21 .idx { font-family: 'Inter', sans-serif; font-size: 13.3px; font-weight: 600; left: 111.8px; top: 1046.8px; color: #000; }  /* on the grey store floor: black reads ≥ 4.5:1, the nav #1e1e1e does not */
+  /* Legibility pass 2026-09-17 (user rule): the pin's 13.3-px nav type is overridden. The beat is one sentence at 30 px on
+     the pin's Shop anchor (left 335.4), the slogan is one 30-px item on Cart's right edge, brand (cut to «Магазин») and the
+     index are 22 px. All nav items share one baseline (33.8) so the 30-px line sits centred in the 44-px bar. */
+  .s21 .n { font-family: 'Inter', sans-serif; font-size: 30px; font-weight: 600; letter-spacing: -0.012em; top: 12px; }
+  .s21 .brand { font-size: 22px; font-weight: 720; letter-spacing: 0; text-transform: uppercase; left: 110px; top: 17.8px; }
+  .s21 .a1 { left: 335.4px; }
+  .s21 .r2 { right: 106px; }
+  .s21 .idx { font-family: 'Inter', sans-serif; font-size: 22px; font-weight: 600; left: 111.8px; top: 1040px; color: #000; }  /* on the grey store floor: black reads ≥ 4.5:1 */
 
 /* ── s22.html ── */
 /* v2 s22 · 18 Стройка — meaning first, then the pin.
@@ -949,17 +1034,22 @@
   .s22 .bgw video { position: absolute; left: -18px; top: -61.6px; width: 1159.4px; height: 652.2px; object-fit: fill; display: block; max-width: none; }
   .s22 .small { left: 465.1px; top: 925.2px; width: 232.2px; height: 133.5px; object-fit: cover; object-position: 50% 50%; display: block; }
 
-  .s22 .d { left: 970px; }
-  .s22 .d1 { top: 23.2px; } .s22 .d2 { top: 49.3px; }
-  .s22 .d3 { top: 156.7px; } .s22 .d4 { top: 181.4px; } .s22 .d5 { top: 201.4px; }
+  /* Legibility pass 2026-09-17 (user rule): the pin's 17–19-px type is overridden. The beat text is 44 px on the pin's text
+     anchor (left 1221.2, first cap top 24.7) and fills the pin's own text column downwards (the pin's column runs 38 lines
+     to y ≈ 784) and the empty field to the right; ragged right — justified 44-px lines in this measure open rivers.
+     The slogan is 32 px on the pin's title centre (1348.9) and baseline (1055.5), growing upwards. Data readouts 20 px on
+     their left anchor and first cap tops (23.2 / 156.7). */
+  .s22 .d { left: 970px; font-size: 20px; }
+  .s22 .d1 { top: 23.2px; } .s22 .d2 { top: 51.2px; }
+  .s22 .d3 { top: 156.7px; } .s22 .d4 { top: 184.7px; } .s22 .d5 { top: 212.7px; }
 
-  .s22 .body { left: 1221.2px; top: 24.7px; width: 480px; margin: 0; line-height: 20.03px; text-box: trim-both cap alphabetic;
-               text-align: justify; text-indent: 31.9px; }
-  .s22 .b2 { top: 84.8px; }
+  .s22 .body { left: 1221.2px; top: 24.7px; width: 660px; font-size: 44px; line-height: 54px; letter-spacing: -0.005em;
+               text-box: trim-both cap alphabetic; }
+  .s22 .body p { margin: 0; } .s22 .body .b2 { margin-top: 27px; }
 
-  .s22 .capt { left: 948.9px; width: 800px; text-align: center; font-size: 18.6px; }
-  .s22 .c1 { top: 1014.4px; font-weight: 500; text-transform: uppercase; }
-  .s22 .c2 { top: 1042px; }
+  .s22 .capt { left: 948.9px; width: 800px; text-align: center; font-size: 32px; }
+  .s22 .c1 { top: 991.5px; font-size: 28px; font-weight: 500; text-transform: uppercase; }
+  .s22 .c2 { top: 1032.2px; }
 
 /* ── s23.html ── */
 /* v2 s23 · 19 Завод — meaning first, then the pin.
@@ -990,13 +1080,18 @@
   .s23 .bgw { left: 0; top: 33.8px; width: 958.3px; height: 1010.2px; overflow: hidden; }
   .s23 .bgw video { position: absolute; left: -223.7px; top: -162.2px; width: 1789.3px; height: 1341.9px; object-fit: fill; display: block; max-width: none; }
 
+  /* Legibility pass 2026-09-17 (user rule): the pin's 15.2-px type is overridden. The three steps are 32 px on the pin's
+     paragraph anchors (left 1363.3, cap tops 199.1 / 363.6 / 521.1) and run to the right into the empty field; the slogan
+     labels are 30-px caps on their anchors (left 973.7, same cap tops); nav and footer 20 px on their anchors
+     (nav 3 «Ещё поворот» dropped, nav 4 cut to «После стройки» so it clears «День»). Photo and ЦЕХ untouched. */
+  .s23 .nv { font-size: 20px; line-height: 1; }
   .s23 .n1 { left: 194.6px; top: 9.9px; } .s23 .n2 { left: 584.2px; top: 9.9px; }
-  .s23 .n3 { left: 973.7px; top: 9.9px; } .s23 .n4 { left: 1363.3px; top: 9.9px; }
+  .s23 .n4 { left: 1363.3px; top: 9.9px; }
   .s23 .n5 { right: 199px; top: 9.9px; }
 
-  .s23 .lab { left: 973.7px; }
+  .s23 .lab { left: 973.7px; font-size: 30px; line-height: 1; }
   .s23 .l1 { top: 199.1px; } .s23 .l2 { top: 363.6px; } .s23 .l3 { top: 521.1px; }
-  .s23 .p { left: 1363.3px; width: 356px; white-space: normal; }
+  .s23 .p { left: 1363.3px; width: 520px; white-space: normal; font-size: 32px; line-height: 39px; letter-spacing: -0.005em; text-wrap: balance; }
   .s23 .p1 { top: 199.1px; } .s23 .p2 { top: 363.6px; } .s23 .p3 { top: 521.1px; }
 
   .s23 .giant { left: 1353.6px; top: 716.8px; font-family: 'Roboto Flex', sans-serif; font-size: 277.5px; line-height: 1;
@@ -1029,16 +1124,19 @@
   .s24 .bg { left: 0; top: 0; width: 1920px; height: 1080px; object-fit: cover; object-position: 50% 25%; display: block; }
   .s24 .idx  { font-family: 'Inter Tight', sans-serif; font-weight: 400; font-size: 198.5px; }
   .s24 .mark { font-family: 'Inter Tight', sans-serif; font-weight: 400; font-size: 122.4px; }
-  .s24 .mic  { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 13.8px; letter-spacing: -0.01em; }
-  .s24 .mic2 { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 11px; letter-spacing: -0.01em; }
+  /* Legibility pass 2026-09-17 (user rule): the pin's 11–14-px micro row is overridden. The rule — the whole meaning of the
+     slide — is one 48-px sentence in two lines on the pin's left micro anchor (left 352.4, first cap top 523.5); the pin's
+     left pair and centre line are merged into it. The 20″ fact stays on the pin's right anchor (left 1287.3, top 521.5)
+     at 28 px. Corner words and the picture untouched. */
+  .s24 .mic  { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 48px; letter-spacing: -0.01em; }
+  .s24 .mic2 { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 28px; letter-spacing: -0.005em; }
 
   .s24 .i1 { left: 17px; top: 24px; }
   .s24 .i2 { right: 14px; top: 23px; }
   .s24 .i3 { right: 25px; top: 915.5px; }
   .s24 .i4 { left: 57px; top: 966px; }
-  .s24 .l1 { left: 352.4px; top: 523.5px; } .s24 .l2 { left: 351.4px; top: 540.6px; }
-  .s24 .c1 { left: 663.7px; top: 522.5px; }
-  .s24 .r1 { left: 1287.3px; top: 521.5px; } .s24 .r2 { left: 1286.3px; top: 533.6px; }
+  .s24 .l1 { left: 348.9px; top: 523.5px; } .s24 .l2 { left: 348.9px; top: 581.5px; }  /* ink of «К» / «=» starts on the pin's 352 */
+  .s24 .r1 { left: 1285.5px; top: 521.5px; }  /* one line: a second line would land on the beige panels (measured 4.2:1) */
 
 /* ── s25.html ── */
 /* s25 · 21 Живая камера — meaning first, then the pin.
@@ -1070,8 +1168,7 @@
      Inter 300 for the light numeral, Inter 400 for micro.
      Loop doc-office-5 (1280×720): a young man in a red jacket walks through a real open-plan office, buttoning up mid-step,
      a colleague at her desk behind — caught, not staged. Cover into the portrait card; object-position 70% keeps his
-     face, jacket and hands. Micro on the photo takes the plate's better ink per group (dark for the top-left pair over the
-     light wall, white elsewhere); the numeral keeps the pin's #cfd2d8.
+     face, jacket and hands. The numeral keeps the pin's #cfd2d8.
      Fix pass 2026-09-16 (cold reader read «CTO» as «сто»): people list «[ CTO ]» → «[ Техдиректор ]». */
   .s25 { color: #000;
     background: linear-gradient(90deg, #4a4e56 0%, #54575e 20%, #585d63 35%, #5d6066 55%, #2a2a2e 64%, #313134 72%, #62636a 82%, #63666b 100%); }
@@ -1087,14 +1184,17 @@
 
   .s25 .bw { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 77px; letter-spacing: -0.02em; color: #000; }
   .s25 .rt { text-align: right; }
-  .s25 .jw { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 44.6px; letter-spacing: -0.01em; color: #f0f0f0;
+  .s25 .jw { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 44.6px; letter-spacing: -0.01em; color: #111;
              left: 1285.8px; width: 513.6px; }
   .s25 .jw.j { text-align: justify; text-align-last: justify; }
-  .s25 .mc { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 8.3px; }
-  .s25 .mg { color: #7a7a7a; }
-  .s25 .mw { color: #f4f4f4; }
-  .s25 .mm { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 7.4px; color: #f4f4f4; }
-  .s25 .mm.md { color: #1a1a1a; }
+  /* Legibility pass 2026-09-17 (user rule): the pin's 7–8-px micro (22 fragments) is removed except two facts that are real
+     content, merged and set at 20 px on their pin anchors: «Реальные люди в массовке» (left card, left 129.6 / top 402) and
+     «Офис, магазин, стройка, завод» (grey card footer, left 1288.8 / top 895.2). The photo card carries no text but the numeral.
+     Grey card: the pin's #f0f0f0 on #a9aeb7 measured 2.0:1 → dark ink #111 on the pin's own card colour (≈ 8:1). A card dark
+     enough for white type (≤ #686d76) would sink into the #63666b backdrop and the three-card composition would be lost. */
+  .s25 .mc { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 20px; }
+  .s25 .mg { color: #555; }
+  .s25 .mw { color: #111; }
   .s25 .num { font-family: 'Inter', sans-serif; font-weight: 300; font-size: 173.3px; letter-spacing: -0.02em; color: #cfd2d8; }
 
 /* ── s26.html ── */
@@ -1136,19 +1236,25 @@
       #7a7d7a 56%, #414441 66.5%, #3f423f 76.9%, #434643 87.3%, #292c29 97.7%, #232623 99.7%); }
 
   .s26 .mi { font-family: 'Inter', sans-serif; font-size: 14.2px; font-weight: 500; text-transform: uppercase; }
+  /* Legibility pass 2026-09-17 (user rule): type enlarged beyond the pin, anchors kept. Nav + footer 14.2 → 26 (caps; the
+     36 px bands above and below the photos take no more), photo labels 14.2 → 30. Label «Дневной свет» → «Солнце»: the longer label ran onto the grey concrete panel (3.1:1).
+     Lefts are re-set so the ink of the larger type starts on the pin's left edges. Removed: nav «Переключатель» (the footer
+     says it) and the label «Блики» (no meaning, and at 30 px it would touch СВЕТ). */
+  .s26 .mi { font-size: 26px; }
+  .s26 .ph-l { font-size: 30px; }
   .s26 .mx { text-transform: none; }
   .s26 .wh { color: #fff; }
   .s26 .big { font-family: 'Inter Tight', sans-serif; font-size: 265.2px; font-weight: 450; letter-spacing: -0.03em; color: #000; }
 
-  .s26 .n1 { left: 197.7px; top: 12.2px; } .s26 .n2 { left: 586.5px; top: 12.2px; }
-  .s26 .n3 { left: 974.6px; top: 12.2px; } .s26 .n4 { left: 1363.4px; top: 12.2px; }
+  .s26 .n1 { left: 195.3px; top: 12.2px; } .s26 .n2 { left: 582.5px; top: 12.2px; }
+  .s26 .n3 { left: 972.2px; top: 12.2px; } .s26 .n4 { left: 1361.8px; top: 12.2px; }
   .s26 .n5 { right: 196.9px; top: 12.2px; }
-  .s26 .a1 { left: 197.7px; top: 380px; } .s26 .a2 { left: 586.5px; top: 380px; }
-  .s26 .a3 { left: 975.4px; top: 380px; } .s26 .a4 { left: 1364.2px; top: 380px; }
-  .s26 .b1 { left: 197.7px; top: 720.2px; } .s26 .b2 { left: 586.5px; top: 720.2px; }
+  .s26 .a1 { left: 195.3px; top: 380px; } .s26 .a2 { left: 581.6px; top: 380px; }
+  .s26 .a3 { left: 973px; top: 380px; } .s26 .a4 { left: 1361.8px; top: 380px; }
+  .s26 .b1 { left: 195.3px; top: 720.2px; } .s26 .b2 { left: 584.9px; top: 720.2px; }
   .s26 .b3 { left: 975.4px; top: 720.2px; }
   .s26 .big { right: 256px; top: 718.8px; }
-  .s26 .f1 { left: 196.9px; top: 1055.6px; } .s26 .f2 { left: 1364.2px; top: 1055.6px; }
+  .s26 .f1 { left: 194.5px; top: 1055px; } .s26 .f2 { left: 1361.8px; top: 1055px; }
 
 /* ── s27.html ── */
 /* v2 s27 · 24 Мир и локации — meaning first, then the pin.
@@ -1190,9 +1296,12 @@
      Labels (plan copy, bracketed like the pin's nav): «[ ВСЕ ЛОКАЦИИ РЕАЛЬНЫЕ ]» · «[ ДОРАБАТЫВАЕМ ТОЛЬКО СВЕТ И
      МАССОВКУ ]» (the long one in the pin's long centre slot) · «[ БЕЗ ПАВИЛЬОНА ]». Three real phrases fill the pin's three
      nav slots; the two word-gap slots («[ ABOUT ]» / «[ WORKS ]») have no further real content, so they stay empty
-     (filler forbidden) and are waived in the spec. */
+     (filler forbidden) and are waived in the spec.
+     Legibility pass 2026-09-17 (user rule): the three bracket labels 17.7 → 30 px (mono caps, 400 → 500 so the thin mono holds on a phone), anchors kept (left ink /
+     centre / right ink, cap top 14.8). Centre label «Дорабатываем…» → «Добавляем свет и массовку» so the three
+     labels stay apart on one row. */
   .s27 { background: #f5f6f1; color: #000; }
-  .s27 .m { font-family: 'IBM Plex Mono', monospace; font-weight: 400; font-size: 17.7px; line-height: 1;
+  .s27 .m { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 30px; line-height: 1;
             text-box: trim-both cap alphabetic; margin: 0; white-space: nowrap; color: #1a1a1a; }
   .s27 .n1 { left: 206.2px; top: 14.8px; }
   .s27 .n2 { left: 367.4px; width: 1200px; text-align: center; top: 14.8px; }
@@ -1238,11 +1347,17 @@
      Loop cto-type-6 is letterboxed (picture 1280×536 at y 92): the video is sized so the picture fills the box and the bars
      fall outside the wrapper; object-position keeps the lit laptop with code and the glasses in the portrait.
      Fix pass 2026-09-16 (cold reader read «CTO» as «сто», didn't know «синхрон»): «CTO» → «ТЕХДИРЕКТОР»,
-     «СИНХРОННЫ В ОТКАЗЕ» → «ОТКАЗЫВАЮТ ХОРОМ». */
+     «СИНХРОННЫ В ОТКАЗЕ» → «ОТКАЗЫВАЮТ ХОРОМ».
+     Legibility pass 2026-09-17 (user rule): the casting list is the meaning — mono 17 → 28 px, wordmark 25.3 → 32 px.
+     Anchors kept: every block starts on its pin left / right edge and cap top (keys, first value line, ТИПАЖИ, wordmark
+     line 1, bottom-right row 1); following lines step 32 px (wordmark 28) instead of the pin's 19. The list column is
+     247 px wide (x 697 → photo 944), so values are re-broken to ≤ 13 characters a line. Bottom right: at 28 px the key fills the row, so the value
+     («ТЁПЛЫЙ, / СПОКОЙНЫЙ», was «тёплый и спокойный») steps down to rows 2–3 on the pin's right edge — read row by row it
+     stays «сотрудник Cloud.ru: тёплый, спокойный». */
   .s28 { background: #ebe8e4; color: #0a0e14; }
   .s28 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
-  .s28 .logo { font-family: 'Roboto Flex', sans-serif; font-size: 25.3px; font-weight: 700; font-variation-settings: 'wght' 700, 'wdth' 146; }
-  .s28 .mono { font-family: 'IBM Plex Mono', monospace; font-size: 17px; font-weight: 500; }
+  .s28 .logo { font-family: 'Roboto Flex', sans-serif; font-size: 32px; font-weight: 700; font-variation-settings: 'wght' 700, 'wdth' 146; }
+  .s28 .mono { font-family: 'IBM Plex Mono', monospace; font-size: 28px; font-weight: 500; }
   .s28 .giant { font-family: 'Roboto Flex', sans-serif; font-size: 540px; color: #050a12; letter-spacing: 0;
                 font-variation-settings: 'wdth' 61, 'wght' 620, 'opsz' 144; }
   .s28 .r { text-align: right; }
@@ -1283,16 +1398,25 @@
                 face x ≈ 560–680, y 110–300; hands x ≈ 520–810 (the gesture reaches x ≈ 860 during the loop); a colleague
                 stands at the far left (x 0–150). Window source x 410–870, y 30–674 (460 × 644, the box ratio) at ×0.90630 →
                 video 1160.1 × 652.5, left −371.6, top −27.2: her face in the upper third, both hands in the middle, the
-                folders on the desk along the bottom; the colleague and the wall picture stay out. */
+                folders on the desk along the bottom; the colleague and the wall picture stay out.
+     Legibility pass 2026-09-17 (user rule; cold readers gave this slide 2 of 5 — 94 of 97 words were 13 px):
+       copy cut from 97 to 36 words and set at 34 px (was 13.1), pitch 56. Blocks keep their pin anchors (left ink + first
+       cap top) and grow down into the empty field:
+       para anchor → «Звук» + five sound cues, one short line each («subject + italic rest», the pin's list pattern);
+       nav anchor  → «Версии» + 20″ / 15″ / 10″;  list anchor → what each version is, row to row with the durations.
+       Removed: the two-line lead (the first cue already says «не диктор»; the compression is now the head of the versions
+       table), the link line «60″ → 20″ → 15″ → 10″» (merged into that head), the «Говорят в кадре» speaker list, the full
+       shot chains of the versions.
+       «Звук и версии» is a real title now: 32.7 → 180 px, same left ink edge and the same ink bottom (descenders end at
+       1070), it grows up into the empty lower third. */
   .s29 { background: #fff; color: #000; }
-  .s29 .t { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 13.1px; line-height: 15.04px;
+  .s29 .t { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 34px; line-height: 56px;
             text-box: trim-both cap alphabetic; margin: 0; white-space: nowrap; }
   .s29 .t i { font-style: italic; }
-  .s29 .para { left: 107.3px; top: 16.2px; width: 519px; white-space: normal; }
-  .s29 .link { left: 107.3px; top: 135.4px; }
-  .s29 .nav  { left: 751.6px; top: 16.6px; }
-  .s29 .list { left: 966.2px; top: 16.6px; }
-  .s29 .foot { left: 104.6px; top: 1040.7px; font-size: 32.7px; line-height: 1; } /* 6 px above the pin: the у / р descenders ended 3 px from the canvas edge; now they end at 1070, the pin's own ink bottom */
+  .s29 .para { left: 104.9px; top: 16.6px; }
+  .s29 .nav  { left: 750px; top: 17px; }
+  .s29 .list { left: 965.4px; top: 17.4px; }
+  .s29 .foot { left: 99.6px; top: 903px; font-size: 180px; line-height: 1; letter-spacing: -0.02em; } /* 6 px above the pin: the у / р descenders ended 3 px from the canvas edge; now they end at 1070, the pin's own ink bottom */
   .s29 .fig  { left: 1395.6px; top: 13.5px; width: 416.9px; height: 583.9px; overflow: hidden; }
   .s29 .fig video { position: absolute; left: -371.6px; top: -27.2px; width: 1160.1px; height: 652.5px; object-fit: fill; display: block; max-width: none; }
 
@@ -1318,18 +1442,22 @@
      the frosted glass wall (x ≥ 1070) stays out; over the clip she crosses from x ≈ 900 to ≈ 340.
      Hierarchy: the tagline «Есть, где развернуться.» takes the big call's face (Inter Tight 700) in the pin's small slot —
      same size, cap top and left edge — so it reads as the end line; the tone note stays Inter 500 and carries only
-     «Не „мы лучшие“, а „я тебя понимаю — и вот выход“». */
+     «Не „мы лучшие“, а „я тебя понимаю — и вот выход“».
+     Legibility pass 2026-09-17 (user rule): the tagline is the end line of the whole deck and was 13.5 px. It keeps the
+     small slot's left edge and cap top and grows to 84 px across the column (Inter Tight 700, as before). The tone note
+     13.5 → 30 px keeps its left edge (545.5); on the pin's row it would now sit inside the tagline, so it steps down under
+     it (cap top 652) and breaks into three short lines that stay clear of the photo. Giant words and photo untouched. */
   .s30 { background: #fffdfc; color: #181615; }
   .s30 .cap { text-box: trim-both cap alphabetic; line-height: 1; white-space: nowrap; margin: 0; }
   .s30 .big { font-family: 'Inter Tight', sans-serif; font-size: 185.6px; font-weight: 640; letter-spacing: -0.01em; }
   .s30 .small { font-family: 'Inter', sans-serif; font-size: 13.5px; font-weight: 500; }
-  .s30 .tag { font-family: 'Inter Tight', sans-serif; font-weight: 700; }
-  .s30 .para { line-height: 17.35px; white-space: pre; text-box: trim-both cap alphabetic; margin: 0; }
+  .s30 .tag { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 72px; line-height: 80px; letter-spacing: -0.01em; white-space: pre; text-box: trim-both cap alphabetic; margin: 0; }
+  .s30 .para { font-size: 30px; line-height: 38px; white-space: pre; text-box: trim-both cap alphabetic; margin: 0; }
 
   .s30 .w1 { left: 108px; top: 23.1px; }
   .s30 .w2 { left: 113.8px; top: 915.7px; }
-  .s30 .sl { left: 111.8px; top: 525.9px; }
-  .s30 .sr { left: 545.5px; top: 525.9px; }
+  .s30 .sl { left: 543px; top: 525.9px; } /* 2026-09-17: at 84 px across the column the deck read «Выбери / Есть, где развернуться. / Cloud.ru.»; the tagline now heads the indented block on the pin's second small anchor (P left 545.5), so the two giant words read as a pair */
+  .s30 .sr { left: 544px; top: 712px; }
   .s30 .ph { left: 1104.6px; top: 0; width: 815.4px; height: 1080px; object-fit: cover; object-position: 44.8% 50%; display: block; }
 
   </style>
@@ -1351,27 +1479,28 @@
   </div>
 
   <p class="abs cap mic dk" style="left:308.2px;top:45.9px">CLOUD.RU —</p>
-  <p class="abs cap mic dk" style="left:306.3px;top:67px">РОЛИК <b>«ОБЛАКО»</b></p>
-  <p class="abs cap mic dk" style="left:0;width:1898px;text-align:center;top:45.9px">ВСЕ ВОКРУГ ЖДУТ ОТ ТЕБЯ ОДНОГО СЛОВА — <b>ВЫБЕРИ</b></p>
-  <p class="abs cap mic dk r" style="right:331.1px;top:45.9px">РЕЖИССЁРСКИЙ</p>
-  <p class="abs cap mic dk r" style="right:331.1px;top:67px"><b>ТРИТМЕНТ</b></p>
+  <p class="abs cap mic dk" style="left:306.3px;top:88px">РОЛИК <b>«ОБЛАКО»</b></p>
+  <p class="abs cap mic dk" style="left:0;width:1898px;text-align:center;top:45.9px">ВСЕ ВОКРУГ ЖДУТ ОТ ТЕБЯ</p>
+  <p class="abs cap mic dk" style="left:0;width:1898px;text-align:center;top:88px">ОДНОГО СЛОВА — <b>ВЫБЕРИ</b></p>
+  <p class="abs cap mic mic2 dk r" style="right:331.1px;top:45.9px">РЕЖИССЁРСКИЙ</p>
+  <p class="abs cap mic mic2 dk r" style="right:331.1px;top:80px"><b>ТРИТМЕНТ</b></p>
 
   <p class="abs cap sm r" style="right:331.1px;top:741.7px">Все смотрят</p>
-  <p class="abs cap sm r" style="right:331.1px;top:760.9px">на тебя</p>
+  <p class="abs cap sm r" style="right:331.1px;top:772px">на тебя</p>
 
   <h1 class="abs" style="left:0;top:0;width:1920px;height:1080px;margin:0;font-size:inherit;font-weight:inherit" aria-label="Выбери">
     <span class="abs cap giant" style="left:301.2px;top:740.3px" aria-hidden="true">ВЫБЕ–</span>
     <span class="abs cap giant r" style="right:323.2px;top:903px" aria-hidden="true">РИ</span>
   </h1>
 
-  <p class="abs cap sm fade" style="left:1139.9px;top:814.8px">Выбор нужен сегодня.</p>
-  <p class="abs cap sm fade" style="left:1141.5px;top:837.5px">Ошибка стоит дорого.</p>
-  <p class="abs cap sm fade" style="left:1139.9px;top:856.6px">Вариантов больше, чем часов.</p>
+  <p class="abs cap sm s22 fade" style="left:1139.9px;top:814.8px">Выбор нужен сегодня.</p>
+  <p class="abs cap sm s22 fade" style="left:1139.9px;top:842px">Ошибка стоит дорого.</p>
+  <p class="abs cap sm s22 fade" style="left:1139.9px;top:869.2px">Вариантов больше, чем часов.</p>
 
-  <p class="abs cap sm" style="left:308.6px;top:900.6px">Версии ролика</p>
-  <p class="abs cap sm" style="left:307.2px;top:924.6px">60″ · 20″ · 15″ · 10″</p>
+  <p class="abs cap sm s30" style="left:308.6px;top:900.6px">Версии ролика</p>
+  <p class="abs cap sm s30" style="left:307.2px;top:940px">60″ · 20″ · 15″ · 10″</p>
   <p class="abs cap sm" style="left:835.5px;top:901.6px">Герой — ты</p>
-  <p class="abs cap sm" style="left:308.6px;top:1024.1px">Сентябрь 2026</p>
+  <p class="abs cap sm s22" style="left:308.6px;top:1024.1px">Сентябрь 2026</p>
 </section>
     </div>
 
@@ -1386,13 +1515,10 @@
     <source data-src="media/clips/coffee-hand-5.webm" type="video/webm"><source data-src="media/clips/coffee-hand-5.mp4" type="video/mp4">
   </video>
 
-  <p class="abs cap l w tl w1">Зритель:</p><p class="abs cap l w tr w1">на месте техдиректора</p>
-  <p class="abs cap l w tl w2">Руки:</p><p class="abs cap l w tr w2">держат кликер</p>
-  <p class="abs cap l w tl w3">Глаза:</p><p class="abs cap l w tr w3">совет качает головой</p>
-  <p class="abs cap l w tl w4">Уши:</p><p class="abs cap l w tr w4">десятая мелодия ожидания</p>
-  <p class="abs cap l w bl b1">А потом</p>
-  <p class="abs cap l w bl b2">вместе с ним</p>
-  <p class="abs cap l w bl b3">выдыхает</p>
+  <p class="abs cap l w tl w1">Его руками держит кликер,</p>
+  <p class="abs cap l w tl w2">его глазами видит отказ</p>
+  <p class="abs cap l w bl b1">его ушами слышит гудки —</p>
+  <p class="abs cap l w bl b2">и вместе с ним выдыхает</p>
 
   <p class="abs cap l ta t1">Камера —</p>
   <p class="abs cap l ta t2">его глаза</p>
@@ -1452,12 +1578,11 @@
 
   <p class="abs cap in yr">Акт второй</p>
   <p class="abs cap it n n2">35–60″</p>
+  <p class="abs cap in mi d1">Камера летит,</p>
+  <p class="abs cap in mi d2">пространство открывается</p>
 
-  <p class="abs cap in mi b1">Склейка на каждое «выбери»,</p>
-  <p class="abs cap in mi b2">ритм ускоряется</p>
+  <p class="abs cap in mi b1">Склейка на каждое «выбери» — всё быстрее</p>
   <h2 class="abs cap it t t3">Выбери Cloud.ru</h2>
-  <p class="abs cap in mi c1">Камера летит,</p>
-  <p class="abs cap in mi c2">над людьми цифры</p>
 </section>
     </div>
     <details class="text">
@@ -1487,13 +1612,12 @@
     <li class="abs cap nav n2">Кликер</li>
     <li class="abs cap nav n3">Пицца</li>
     <li class="abs cap nav n4">Телефон</li>
-    <li class="abs cap nav n5">Ползунок</li>
   </ul>
   <div class="abs btn" aria-hidden="true"></div>
-  <p class="abs cap nav btn-t">Только руки</p>
+  <p class="abs cap nav btn-t">Руки</p>
 
-  <p class="abs cap blurb b1">Весь ролик снят от первого лица, глазами техдиректора: камера на уровне глаз, оптика 18–24 мм.</p>
-  <p class="abs cap blurb b2">В кадре только руки героя и то, что он в них держит.</p>
+  <p class="abs cap blurb b1">Весь ролик снят от первого лица, глазами техдиректора:</p>
+  <p class="abs cap blurb b2">камера на уровне глаз, в кадре только руки героя и то, что он держит.</p>
 
   <video class="loop abs band" data-claim="pov-hands" muted playsinline loop preload="none" poster="media/clips/pov-hands-1.jpg"
          aria-label="Вид от первого лица: руки героя печатают на ноутбуке">
@@ -1517,33 +1641,25 @@
     <h2 class="sr-only">Люди говорят с ним</h2>
     <div class="slide-wrap">
 <section data-slide="5" style="--w:1920; --h:1080" class="slide s05" id="to-camera" aria-label="03 В объектив">
-  <p class="abs cap t x1 h1">Герой:</p><p class="abs cap t x2 h1" style="left:371.5px">техдиректор</p>
-  <p class="abs cap t x1 h2">Камера:</p><p class="abs cap t x2 h2">Его глаза</p>
+  <p class="abs cap t x1 h1">Герой — техдиректор</p>
+  <p class="abs cap t x1 h2">Камера — его глаза</p>
   <p class="abs cap t x3 h1">Говорят:</p><p class="abs cap t xr h1">не друг с другом, а с героем</p>
   <p class="abs cap t x3 h2">То есть:</p><p class="abs cap t xr h2">с нами</p>
 
-  <p class="abs cap t no th">Акт</p><p class="abs cap t ti th">Реплика</p><p class="abs cap t pr th">Кто</p><p class="abs cap t le th">Время</p>
+  <p class="abs cap t hd ti th">Реплика</p><p class="abs cap t hd pr th">Кто</p>
 
-  <!-- 16 rows, cap tops 170 + 17·n; every row is one line of the film in screen order, all in the same black -->
-  <p class="abs cap t no" style="top:170px">1</p><p class="abs cap t ti" style="top:170px">Безопасность. Развитие. Масштабирование.</p><p class="abs cap t pr" style="top:170px">Совет</p><p class="abs cap t le" style="top:170px">0–35″</p>
-  <p class="abs cap t no" style="top:187px">1</p><p class="abs cap t ti" style="top:187px">Выбери решение.</p><p class="abs cap t pr" style="top:187px">Команды</p><p class="abs cap t le" style="top:187px">0–35″</p>
-  <p class="abs cap t no" style="top:204px">1</p><p class="abs cap t ti" style="top:204px">Выбери архитектуру.</p><p class="abs cap t pr" style="top:204px">Команды</p><p class="abs cap t le" style="top:204px">0–35″</p>
-  <p class="abs cap t no" style="top:221px">1</p><p class="abs cap t ti" style="top:221px">Выбери стек.</p><p class="abs cap t pr" style="top:221px">Команды</p><p class="abs cap t le" style="top:221px">0–35″</p>
-  <p class="abs cap t no" style="top:238px">1</p><p class="abs cap t ti" style="top:238px">Оптимизировать бюджет.</p><p class="abs cap t pr" style="top:238px">Финансы</p><p class="abs cap t le" style="top:238px">0–35″</p>
-  <p class="abs cap t no" style="top:255px">1</p><p class="abs cap t ti" style="top:255px">Выбери пиццу.</p><p class="abs cap t pr" style="top:255px">Коллеги</p><p class="abs cap t le" style="top:255px">0–35″</p>
-  <p class="abs cap t no" style="top:272px">1</p><p class="abs cap t ti" style="top:272px">On-prem.</p><p class="abs cap t pr" style="top:272px">Первый коллега</p><p class="abs cap t le" style="top:272px">0–35″</p>
-  <p class="abs cap t no" style="top:289px">1</p><p class="abs cap t ti" style="top:289px">Облако.</p><p class="abs cap t pr" style="top:289px">Второй коллега</p><p class="abs cap t le" style="top:289px">0–35″</p>
-  <p class="abs cap t no" style="top:306px">1</p><p class="abs cap t ti" style="top:306px">Гибрид.</p><p class="abs cap t pr" style="top:306px">Третий коллега</p><p class="abs cap t le" style="top:306px">0–35″</p>
-  <p class="abs cap t no" style="top:323px">1</p><p class="abs cap t ti" style="top:323px">ИИ! ИИ! ИИ!</p><p class="abs cap t pr" style="top:323px">Толпа</p><p class="abs cap t le" style="top:323px">0–35″</p>
-  <p class="abs cap t no" style="top:340px">2</p><p class="abs cap t ti" style="top:340px">Выбери Cloud.ru.</p><p class="abs cap t pr" style="top:340px">Cloud.ru</p><p class="abs cap t le" style="top:340px">35–60″</p>
-  <p class="abs cap t no" style="top:357px">2</p><p class="abs cap t ti" style="top:357px">Выбери скорость.</p><p class="abs cap t pr" style="top:357px">Магазин</p><p class="abs cap t le" style="top:357px">35–60″</p>
-  <p class="abs cap t no" style="top:374px">2</p><p class="abs cap t ti" style="top:374px">Выбери гибкость.</p><p class="abs cap t pr" style="top:374px">Магазин</p><p class="abs cap t le" style="top:374px">35–60″</p>
-  <p class="abs cap t no" style="top:391px">2</p><p class="abs cap t ti" style="top:391px">Выбери производительность.</p><p class="abs cap t pr" style="top:391px">Стройка</p><p class="abs cap t le" style="top:391px">35–60″</p>
-  <p class="abs cap t no" style="top:408px">2</p><p class="abs cap t ti" style="top:408px">Выбери стабильность.</p><p class="abs cap t pr" style="top:408px">Стройка</p><p class="abs cap t le" style="top:408px">35–60″</p>
-  <p class="abs cap t no" style="top:425px">2</p><p class="abs cap t ti" style="top:425px">Выбери поддержку экспертов.</p><p class="abs cap t pr" style="top:425px">Завод</p><p class="abs cap t le" style="top:425px">35–60″</p>
+  <!-- legibility pass: the plan's six «кто — реплика» rows at 30 px, cap tops 170 + 40·n (the council's line takes two rows) -->
+  <p class="abs cap t ti" style="top:170px">Безопасность. Развитие.</p><p class="abs cap t pr" style="top:170px">Совет</p>
+  <p class="abs cap t ti" style="top:210px">Масштабирование.</p>
+  <p class="abs cap t ti" style="top:250px">Выбери решение.</p><p class="abs cap t pr" style="top:250px">Команды</p>
+  <p class="abs cap t ti" style="top:290px">Оптимизировать бюджет.</p><p class="abs cap t pr" style="top:290px">Финансы</p>
+  <p class="abs cap t ti" style="top:330px">Выбери пиццу.</p><p class="abs cap t pr" style="top:330px">Коллеги</p>
+  <p class="abs cap t ti" style="top:370px">ИИ! ИИ! ИИ!</p><p class="abs cap t pr" style="top:370px">Толпа</p>
+  <p class="abs cap t ti" style="top:410px">Выбери Cloud.ru.</p><p class="abs cap t pr" style="top:410px">Cloud.ru</p>
 
-  <h2 class="abs cap t x1 lb1">Все говорят с ним —</h2>
-  <p class="abs cap t x1 lb2">прямо в объектив</p>
+  <h2 class="abs cap t big x1 lb1">Все говорят</h2>
+  <p class="abs cap t big x1 lb2">с ним — прямо</p>
+  <p class="abs cap t big x1 lb3">в объектив</p>
 
   <div class="abs ph1">
     <video class="loop" data-claim="to-camera" muted playsinline loop preload="none" poster="media/clips/v2-to-camera-2.jpg"
@@ -1633,12 +1749,14 @@
     <source data-src="media/clips/v2-relief-1.webm" type="video/webm"><source data-src="media/clips/v2-relief-1.mp4" type="video/mp4">
   </video>
 
-  <!-- top row -->
-  <p class="abs cap mic" style="left:232.3px;top:37.1px">акт 1: ночь, лица всё ближе,</p>
-  <p class="abs cap mic" style="left:232.3px;top:53.3px">склейки учащаются</p>
+  <!-- top row (legibility pass 2026-09-17: 16.5 → 32 px, claim 18.4 → 36 px; anchors kept: left 232 / centre / right 233, first cap top 37.1 / 35.7) -->
+  <p class="abs cap mic" style="left:232.3px;top:37.1px">акт 1: ночь,</p>
+  <p class="abs cap mic" style="left:232.3px;top:75.1px">лица всё ближе,</p>
+  <p class="abs cap mic" style="left:232.3px;top:113.1px">склейки учащаются</p>
   <p class="abs cap bold" style="left:0;width:1920px;text-align:center;top:35.7px;padding-left:1.2px">35″ ДАВЛЕНИЯ — 25″ ОБЛЕГЧЕНИЯ</p>
-  <p class="abs cap mic r" style="right:233.3px;top:37.1px">акт 2: день, воздух,</p>
-  <p class="abs cap mic r" style="right:232px;top:53.3px">длинные плавные планы</p>
+  <p class="abs cap mic r" style="right:233.3px;top:37.1px">акт 2: день,</p>
+  <p class="abs cap mic r" style="right:233.3px;top:75.1px">воздух, длинные</p>
+  <p class="abs cap mic r" style="right:233.3px;top:113.1px">плавные планы</p>
 
   <!-- labels above the photos -->
   <p class="abs cap lab r" style="right:1202.2px;top:338.5px">НАГНЕТАНИЕ</p>
@@ -1660,12 +1778,14 @@
   <p class="abs cap lab" style="left:0;width:1919.4px;text-align:center;top:789.8px">РОЛИК 60″</p>
   <p class="abs cap lab" style="left:1201.6px;top:789.8px">ВЫДОХ</p>
 
-  <!-- bottom row -->
-  <p class="abs cap mic" style="left:232px;top:1015.6px">звук плотнеет, пока герою</p>
-  <p class="abs cap mic" style="left:231.4px;top:1031.5px">не остаётся только закрыть жалюзи</p>
-  <p class="abs cap bold" style="left:0;width:1919px;text-align:center;top:1030.7px;font-size:18px">ПЕРЕЛОМ — ЖАЛЮЗИ И ТИШИНА</p>
-  <p class="abs cap mic r" style="right:233.3px;top:1015.6px">музыка раскрывается, камера</p>
-  <p class="abs cap mic r" style="right:233.3px;top:1031.5px">летит сквозь пространство</p>
+  <!-- bottom row (legibility pass: grows upward from the pin's last baseline 1043.5) -->
+  <p class="abs cap mic" style="left:232px;top:944.2px">звук плотнеет,</p>
+  <p class="abs cap mic" style="left:232px;top:982.2px">пока герою не остаётся</p>
+  <p class="abs cap mic" style="left:232px;top:1020.2px">только закрыть жалюзи</p>
+  <p class="abs cap bold" style="left:0;width:1919px;text-align:center;top:1017.6px">ПЕРЕЛОМ — ЖАЛЮЗИ И ТИШИНА</p>
+  <p class="abs cap mic r" style="right:233.3px;top:944.2px">музыка раскрывается,</p>
+  <p class="abs cap mic r" style="right:233.3px;top:982.2px">камера летит</p>
+  <p class="abs cap mic r" style="right:233.3px;top:1020.2px">сквозь пространство</p>
 </section>
     </div>
     <details class="text">
@@ -1719,10 +1839,8 @@
 <section data-slide="9" style="--w:1920; --h:1080" class="slide s09" id="teams" aria-label="07 Команды: команды показывают идеи, за окном день сменяется ночью">
   <p class="abs cap rf nav n1">Выбери решение</p>
   <p class="abs" style="left:0;top:0;width:1920px;height:0;margin:0">
-    <span class="abs cap rf nav n2">Команды</span>
-    <span class="abs cap rf nav dim n3">по одной</span>
-    <span class="abs cap rf nav dim n4">показывают идеи —</span>
-    <span class="abs cap rf nav n5">а за окном темнеет</span>
+    <span class="abs cap rf nav n2">Команды <span class="dim">по одной показывают идеи,</span></span>
+    <span class="abs cap rf nav n5">за окном темнеет</span>
   </p>
   <div class="abs ul" aria-hidden="true"></div>
 
@@ -1756,8 +1874,8 @@
     <div class="slide-wrap">
 <section data-slide="10" style="--w:1920; --h:1080" class="slide s10" id="architecture" aria-label="07 Архитектура: доска со схемой — «Выбери архитектуру. Выбери стек.»">
   <h2 class="abs" style="left:0;top:0;margin:0">
-    <span class="abs cap t l" style="top:13.2px">Выбери архитектуру.</span>
-    <span class="abs cap t l" style="top:34.3px">Выбери стек.</span>
+    <span class="abs cap t h l" style="top:13.2px">Выбери архитектуру.</span>
+    <span class="abs cap t h l" style="top:79.2px">Выбери стек.</span>
   </h2>
 
   <svg class="abs logo" viewBox="0 0 26.4 33.5" aria-hidden="true" fill="none" stroke="#333" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
@@ -1767,29 +1885,22 @@
     <path d="M7.8 18.2H14.6C17.6 18.2 19.2 19.9 19.2 22.7C19.2 25.6 17.6 27.3 14.6 27.3H7.8"/>
   </svg>
 
-  <p class="abs cap t r" style="top:13.2px">Акт 1</p>
-  <p class="abs cap t r" style="top:34.3px">Решение, <span class="lt">архитектура</span></p>
+  <p class="abs cap t s r" style="top:13.2px">Решение, <span class="lt">архитектура</span></p>
 
   <video class="loop abs photo" data-claim="whiteboard" muted playsinline loop preload="none" poster="media/clips/whiteboard-1.jpg"
          aria-label="Человек с кружкой у доски показывает рукой на схему архитектуры, нарисованную маркером">
     <source data-src="media/clips/whiteboard-1.webm" type="video/webm"><source data-src="media/clips/whiteboard-1.mp4" type="video/mp4">
   </video>
 
-  <p class="abs cap t l lt" style="top:756.6px">Команды</p>
-  <p class="abs cap t l" style="top:777.7px">Садятся перед героем одна за другой и</p>
-  <p class="abs cap t l" style="top:798.8px">показывают идеи. Мониторы, доска со</p>
-  <p class="abs cap t l" style="top:819.9px">схемой, снова мониторы. Каждый говорит</p>
-  <p class="abs cap t l" style="top:841.1px">не с соседом, а с героем — прямо</p>
-  <p class="abs cap t l" style="top:862.2px">в объектив, и каждый ждёт от него</p>
-  <p class="abs cap t l" style="top:883.3px">одного слова.</p>
+  <p class="abs cap t s l lt" style="top:756.6px">Акт 1</p>
+  <p class="abs cap t b l" style="top:786.6px">Команды садятся перед героем одна за другой.</p>
+  <p class="abs cap t b l" style="top:830.6px">Мониторы, доска со схемой, снова мониторы.</p>
 
-  <p class="abs cap t l lt" style="top:927.4px">Доска</p>
-  <p class="abs cap t l" style="top:948.5px">Схема архитектуры</p>
-  <p class="abs cap t l" style="top:969.7px">маркером</p>
+  <p class="abs cap t s l lt" style="top:927.4px">Доска</p>
+  <p class="abs cap t b l" style="top:957.4px">Схема архитектуры — маркером.</p>
 
-  <p class="abs cap t l lt" style="top:1013.7px">Вопрос</p>
-  <p class="abs cap t l" style="top:1035.7px">Люди другие —</p>
-  <p class="abs cap t l" style="top:1057.8px">вопрос тот же.</p>
+  <p class="abs cap t s l lt" style="top:1013.7px">Вопрос</p>
+  <p class="abs cap t b l" style="top:1043.7px">Люди другие — вопрос тот же.</p>
 </section>
     </div>
 
@@ -1812,25 +1923,23 @@
   <div class="abs strip" aria-hidden="true"></div>
 
   <nav aria-label="Сцена">
-    <p class="abs cap micro n1">Выбери оптимизировать бюджет</p>
-    <p class="abs cap micro n2">Кликер в руке</p>
+    <p class="abs cap micro n1">Выбери оптимизировать бюджет · кликер в руке</p>
     <p class="abs cap micro n3">Перед тем же столом</p>
     <p class="abs cap micro n4">Первый панч</p>
     <p class="abs cap micro n5">Акт 1</p>
   </nav>
 
-  <p class="abs cap micro a1">Слайд</p>
-  <p class="abs cap micro a2">за слайдом</p>
-  <p class="abs cap micro a3">Пятеро</p>
-  <p class="abs cap micro a4">качают головой</p>
-  <p class="abs cap micro w b1">Отказ</p>
-  <p class="abs cap micro w b2">без слов</p>
-  <p class="abs cap micro w b3">Одновременно</p>
+  <p class="abs cap micro lab a1">Слайд</p>
+  <p class="abs cap micro lab a1b">за слайдом</p>
+  <p class="abs cap micro lab a3">Пятеро</p>
+  <p class="abs cap micro lab a3b">качают головой</p>
+  <p class="abs cap micro lab a3c">все разом</p>
+  <p class="abs cap micro lab w b1">Отказ</p>
+  <p class="abs cap micro lab w b2">без слов</p>
 
   <h2 class="abs cap re">НЕТ</h2>
 
-  <p class="abs cap micro f1">Не злость,</p>
-  <p class="abs cap micro foot-r f2">а абсурдная слаженность отказа</p>
+  <p class="abs cap micro ft f1">Не злость, а абсурдная слаженность отказа</p>
 </section>
     </div>
     <details class="text">
@@ -1850,14 +1959,14 @@
   <p class="abs cap mono k c1 r2">ПОЗДНИЙ ВЕЧЕР</p>
   <p class="abs cap mono k c2 r1">Команда без сил</p>
   <p class="abs cap mono k c3 r1">ГОВОРЯТ</p>
-  <p class="abs cap mono k c3 r2">КОЛЛЕГИ, В ОБЪЕКТИВ</p>
+  <p class="abs cap mono k c3 r2">КОЛЛЕГИ</p>
   <p class="abs cap mono k c4 r1">КАМЕРА</p>
   <p class="abs cap mono k c4 r2">Глазами героя</p>
 
   <p class="abs cap mono k c1 r3">ПЕРВЫЙ АКТ</p>
   <p class="abs cap mono k c2 r3">Ночь и давление</p>
   <p class="abs cap mono k c3 r3">ПИЦЦА</p>
-  <p class="abs cap mono k c4 r3">ЕДИНСТВЕННАЯ ТЁПЛАЯ СЕКУНДА</p>
+  <p class="abs cap mono k c4 r3">ТЁПЛАЯ СЕКУНДА</p>
 
   <div class="abs ph">
     <video class="loop" data-claim="pizza-pull" muted playsinline loop preload="none" poster="media/clips/v2-pizza-pull-2.jpg"
@@ -1867,16 +1976,16 @@
   </div>
   <h2 class="abs cap mono ov">Выбери пиццу</h2>
 
-  <p class="abs cap mono k c3 d">ЗАМЫСЕЛ</p>
-  <p class="abs cap mono t c3 p1">Рука героя берёт последний кусок из коробки.</p>
-  <p class="abs cap mono t c3 p2">Сыр тянется.</p>
-  <p class="abs cap mono t c3 p3">Это единственная секунда тепла в первом акте.</p>
-  <p class="abs cap mono t c3 p4">Я её растягиваю.</p>
+  <p class="abs cap mono k hd c3 d">ЗАМЫСЕЛ</p>
+  <p class="abs cap mono t c3 p1">Рука героя берёт последний кусок</p>
+  <p class="abs cap mono t c3 p2">из коробки. Сыр тянется.</p>
+  <p class="abs cap mono t c3 p3">Это единственная секунда тепла</p>
+  <p class="abs cap mono t c3 p4">в первом акте. Я её растягиваю.</p>
 
-  <p class="abs cap mono k c3 sv">В СЦЕНЕ</p>
-  <p class="abs cap mono t c3 l1">Холодный свет мониторов</p>
-  <p class="abs cap mono t c3 l2">Тёплый сыр</p>
-  <p class="abs cap mono t c3 l3">Коробки</p>
+  <p class="abs cap mono k hd c3 sv">В СЦЕНЕ</p>
+  <p class="abs cap mono t li c3 l1">Холодный свет мониторов</p>
+  <p class="abs cap mono t li c3 l2">Тёплый сыр</p>
+  <p class="abs cap mono t li c3 l3">Коробки</p>
 
   <svg class="abs arrow" viewBox="0 0 18 16" aria-hidden="true">
     <path d="M2 7.8 H15.6 M9.4 1.6 L15.6 7.8 L9.4 14" fill="none" stroke="#000" stroke-width="1.7"/>
@@ -1913,8 +2022,7 @@
 
   <p class="abs cap f h c1">Утро, кофе в руке</p>
   <p class="abs cap f i c1 r1">Трое по очереди</p>
-  <p class="abs cap f i c1 r2">Одно и то же место</p>
-  <p class="abs cap f i c1 r3">Каждый — в камеру</p>
+  <p class="abs cap f i c1 r2">садятся на один стул</p>
 
   <p class="abs cap f h c2">У каждого своя правда</p>
   <p class="abs cap f i c2 r1">On-prem — первый</p>
@@ -1970,7 +2078,8 @@
   <div class="abs card"></div>
   <h2 class="abs cap ct c1">Выбери провайдера.</h2>
   <p class="abs cap ct c2">Перевыбери.</p>
-  <p class="abs cap cta">Ожидание на линии: боссанова · скрипки · синтипоп · гудки „занято“</p>
+  <p class="abs cap cta cta0">Музыка на линии: боссанова, скрипки, синтипоп</p>
+  <p class="abs cap cta">Потом — короткие гудки „занято“</p>
 </section>
     </div>
     <details class="text">
@@ -2001,12 +2110,10 @@
   </div>
 
   <blockquote class="abs" style="left:0;top:0;margin:0">
-    <p class="abs cap q q1">НОУТБУК: «ВЫБЕРИ ИИ».</p>
-    <p class="abs cap q q2">ПОВОРОТ — И ЗА СТЕКЛОМ</p>
-    <p class="abs cap q q3"><span class="sf">ТОЛПА:</span> ЛИЦА И ЛАДОНИ</p>
-    <p class="abs cap q q4">НА СТЕКЛЕ, ВСЕ КРИЧАТ</p>
-    <p class="abs cap q q5">«ИИ». ЗОМБИ-КИНО, НО</p>
-    <p class="abs cap q q6">В <span class="sf">ОБЫЧНОМ</span> ОФИСЕ.</p>
+    <p class="abs cap q q1">НОУТБУК: «ВЫБЕРИ ИИ». ПОВОРОТ —</p>
+    <p class="abs cap q q2">ЗА СТЕКЛОМ <span class="sf">ТОЛПА:</span> ЛИЦА И ЛАДОНИ</p>
+    <p class="abs cap q q3">НА СТЕКЛЕ, ВСЕ КРИЧАТ «ИИ». ЭТО</p>
+    <p class="abs cap q q4">ЗОМБИ-КИНО В <span class="sf">ОБЫЧНОМ</span> ОФИСЕ.</p>
   </blockquote>
 
   <h2 class="abs" style="left:0;top:0;margin:0" aria-label="ИИ. ИИ.">
@@ -2082,8 +2189,6 @@
     <span class="abs cap st l5">«Или…»</span>
   </h2>
 
-  <p class="abs cap sm idx">(13)</p>
-
   <video class="loop abs ph" data-claim="blinds" muted playsinline loop preload="none" poster="media/clips/blinds-1.jpg"
          aria-label="Герой в тёмном костюме, спиной к камере, тянет рукой жалюзи; свет режется ламелями">
     <source data-src="media/clips/blinds-1.webm" type="video/webm"><source data-src="media/clips/blinds-1.mp4" type="video/mp4">
@@ -2121,22 +2226,19 @@
 
   <p class="abs cap mono r1 lft">Акт 1</p>
   <p class="abs cap mono r1 rc">Ночь</p>
-  <p class="abs cap mono r1 clk">35″ — переключатель</p>
   <p class="abs cap mono r2 rc">Холодный свет</p>
-  <p class="abs cap mono gx" aria-hidden="true">X</p>
   <div class="abs sq" style="left:1015.1px" aria-hidden="true"></div><div class="abs sq" style="left:1033.8px" aria-hidden="true"></div><div class="abs sq" style="left:1053.2px" aria-hidden="true"></div>
   <div class="abs sq" style="left:1071.8px" aria-hidden="true"></div><div class="abs sq" style="left:1090.4px" aria-hidden="true"></div>
-  <p class="abs cap mono gy" aria-hidden="true">Y</p>
   <div class="abs sq" style="left:1132.6px;width:13.8px" aria-hidden="true"></div>
   <p class="abs cap mono r3 lft">Акт 2</p>
   <p class="abs cap mono r3 rc">День</p>
   <p class="abs cap mono r4 rc">Тёплый свет</p>
 
   <p class="abs cap mono lab">Поворот</p>
-  <p class="abs serif para">Поворот налево: рядом спокойный сотрудник Cloud.ru. Палец героя щёлкает переключателем — и холодная ночь сменяется солнечным тёплым светом.</p>
+  <p class="abs serif para">Поворот налево. Палец героя щёлкает переключателем — и холодная ночь сменяется тёплым дневным светом.</p>
   <p class="abs serif cont">Снято живым светом<br>на площадке</p>
 
-  <p class="abs mono foot">Слева — ночь.<br>Справа — тот же<br>кабинет днём.<br>Один щелчок.</p>
+  <p class="abs mono foot">Слева — ночь.<br>Справа — тот же<br>кабинет днём.<br>35-я секунда:<br>один щелчок.</p>
 </section>
     </div>
     <details class="text">
@@ -2173,28 +2275,30 @@
   <div class="abs cap serif g6" aria-hidden="true">Л</div>
 
   <!-- mono blocks: cap tops in canvas px = crop × 1.79944; each line its own .cap -->
-  <p class="abs cap mono" style="left:395.9px;top:25.2px">АКТ 2</p>
-  <p class="abs cap mono" style="left:395.9px;top:48.6px">КАМЕРА ЛЕТИТ</p>
-  <p class="abs cap mono" style="left:395.9px;top:70.2px">В ЭКРАН ПЛАНШЕТА</p>
-  <p class="abs cap mono" style="left:395.9px;top:93.6px">ОДНО ДВИЖЕНИЕ</p>
+  <p class="abs cap mono" style="left:393.9px;top:25.2px">АКТ 2</p>
+  <p class="abs cap mono" style="left:393.9px;top:61.2px">КАМЕРА ЛЕТИТ</p>
+  <p class="abs cap mono" style="left:393.9px;top:97.2px">В ЭКРАН ПЛАНШЕТА</p>
+  <p class="abs cap mono" style="left:393.9px;top:133.2px">ОДНО ДВИЖЕНИЕ</p>
 
-  <p class="abs cap mono" style="left:1326.2px;top:32.4px">ВХОД</p>
-  <p class="abs cap mono" style="left:1326.2px;top:106.2px">ЭКРАН РАСТЁТ</p>
-  <p class="abs cap mono" style="left:1326.2px;top:129.6px">И ЗАПОЛНЯЕТ</p>
-  <p class="abs cap mono" style="left:1326.2px;top:153.0px">ВЕСЬ КАДР</p>
-  <p class="abs cap mono" style="left:1326.2px;top:176.3px">БЕЗ СКЛЕЙКИ</p>
+  <p class="abs cap mono" style="left:1324.2px;top:32.4px">ВХОД</p>
+  <p class="abs cap mono" style="left:1324.2px;top:106.2px">ЭКРАН РАСТЁТ</p>
+  <p class="abs cap mono" style="left:1324.2px;top:142.2px">И ЗАПОЛНЯЕТ</p>
+  <p class="abs cap mono" style="left:1324.2px;top:178.2px">ВЕСЬ КАДР</p>
+  <p class="abs cap mono" style="left:1324.2px;top:214.2px">БЕЗ СКЛЕЙКИ</p>
 
-  <p class="abs cap mono" style="left:16.2px;top:399.5px">ПЕРЕХОД</p>
+  <p class="abs cap mono" style="left:14.2px;top:399.5px">ПЕРЕХОД</p>
 
-  <p class="abs cap mono" style="left:1705.9px;top:399.5px">ПИКСЕЛИ</p>
-  <p class="abs cap mono" style="left:1705.9px;top:422.9px">СТАНОВЯТСЯ</p>
-  <p class="abs cap mono" style="left:1705.9px;top:446.3px">СВЕТОМ</p>
-  <p class="abs cap mono" style="left:1705.9px;top:467.9px">НОВОГО МИРА</p>
+  <p class="abs cap mono" style="left:1703.9px;top:399.5px">ПИКСЕЛИ</p>
+  <p class="abs cap mono" style="left:1703.9px;top:435.5px">СТАНОВЯТСЯ</p>
+  <p class="abs cap mono" style="left:1703.9px;top:471.5px">СВЕТОМ</p>
+  <p class="abs cap mono" style="left:1703.9px;top:507.5px">НОВОГО МИРА</p>
 
-  <p class="abs cap mono" style="left:388.7px;top:1013.1px">ВЫНЫРИВАЕМ</p>
-  <p class="abs cap mono" style="left:388.7px;top:1036.5px">В НОВОМ МИРЕ</p>
+  <!-- three lines: «В НОВОМ МИРЕ» on one 28 px line ran onto the light sweater (x > 500) -->
+  <p class="abs cap mono" style="left:386.7px;top:957.4px">ВЫНЫРИВАЕМ</p>
+  <p class="abs cap mono" style="left:386.7px;top:993.4px">В НОВОМ</p>
+  <p class="abs cap mono" style="left:386.7px;top:1029.4px">МИРЕ</p>
 
-  <p class="abs cap mono" style="left:1115.7px;top:1032.9px">ВЫХОД</p>
+  <p class="abs cap mono" style="left:1113.7px;top:1025.8px">ВЫХОД</p>
 </section>
     </div>
     <details class="text">
@@ -2221,25 +2325,21 @@
     <span class="abs cap ttl ctr t2">глазами</span>
     <span class="abs cap ttl ctr t3">системы</span>
   </h2>
-  <p class="abs cap mono tiny ctr by1">Во</p>
-  <p class="abs cap mono tiny ctr by2">втором акте</p>
+  <p class="abs cap mono by ctr by1">Во</p>
+  <p class="abs cap mono by ctr by2">втором акте</p>
 
-  <p class="abs mono col cl">Тонкие зелёные
-рамки на людях
-и объектах.
-Моно-лейблы,
-ползунки,
-счётчики —
-привязаны к
-месту в кадре.</p>
+  <p class="abs mono col cl">Тонкие
+зелёные рамки
+на людях и
+вещах, рядом
+подписи и
+счётчики.</p>
   <p class="abs mono col cr">Не больше 3–5
-элементов, и
+элементов,
 каждый что-то
-значит.
-Показатель
-растёт — и
-растёт
-реальность.</p>
+значит. Цифра
+растёт — с ней
+и реальность.</p>
 </section>
     </div>
     <details class="text">
@@ -2270,11 +2370,9 @@
 
   <div class="abs bar" aria-hidden="true"></div>
   <nav aria-label="Магазин">
-    <p class="abs cap n brand">Магазин электроники</p>
-    <p class="abs cap n a1">Ползунок «покупатели» вверх</p>
-    <p class="abs cap n a2">1 покупатель → полный зал</p>
-    <p class="abs cap n r1">Выбери скорость.</p>
-    <p class="abs cap n r2">Выбери гибкость.</p>
+    <p class="abs cap n brand">Магазин</p>
+    <p class="abs cap n a1">Ползунок «покупатели» вверх: 1 покупатель → полный зал</p>
+    <p class="abs cap n r2">Выбери скорость. Выбери гибкость.</p>
   </nav>
   <p class="abs cap idx">Два прохода: пустой и полный</p>
 </section>
@@ -2305,8 +2403,10 @@
   <p class="abs cap it d d4">Вверх ↑</p>
   <p class="abs cap it d d5">Дом растёт за 2 секунды</p>
 
-  <p class="abs it body">Поворот направо — под ногами мокрый бетон стройки. Герой ведёт ползунок вверх, и дом растёт: реальный таймлапс, сжатый до двух секунд.</p>
-  <p class="abs it body b2">Над площадкой графика: готовность этажей и занятость бригад растут вместе с домом.</p>
+  <div class="abs it body">
+  <p>Поворот направо — под ногами мокрый бетон стройки. Герой ведёт ползунок вверх, и дом растёт: реальный таймлапс, сжатый до двух секунд.</p>
+  <p class="b2">Над площадкой графика: готовность этажей и занятость бригад растут вместе с домом.</p>
+  </div>
 
   <img class="abs small" data-claim="construction" src="media/clips/construction-5.jpg" alt="Башенные краны над растущим домом на закате">
 
@@ -2335,24 +2435,23 @@
   </div>
 
   <nav aria-label="Завод">
-    <p class="abs t n1">ЗАВОД</p>
-    <p class="abs t n2">АКТ 2</p>
-    <p class="abs t n3">ЕЩЁ ПОВОРОТ</p>
-    <p class="abs t n4">ПОСЛЕ МАГАЗИНА И СТРОЙКИ</p>
-    <p class="abs t n5">ДЕНЬ</p>
+    <p class="abs t nv n1">ЗАВОД</p>
+    <p class="abs t nv n2">АКТ 2</p>
+    <p class="abs t nv n4">ПОСЛЕ СТРОЙКИ</p>
+    <p class="abs t nv n5">ДЕНЬ</p>
   </nav>
 
   <p class="abs t lab l1">ВЫБЕРИ</p>
-  <p class="abs t p p1">Звонок в графике — герой берёт трубку. Станки начинают перестраиваться, между ними появляются роборуки.</p>
+  <p class="abs t p p1">Звонок в графике — герой берёт трубку. Станки перестраиваются, между ними появляются роборуки.</p>
   <p class="abs t lab l2">ПОДДЕРЖКУ</p>
   <p class="abs t p p2">Роборуки передают детали друг другу.</p>
   <p class="abs t lab l3">ЭКСПЕРТОВ</p>
-  <p class="abs t p p3">Показатели загрузки в графике зеленеют.</p>
+  <p class="abs t p p3">Показатели загрузки зеленеют.</p>
 
   <h2 class="abs giant">ЦЕХ</h2>
 
-  <p class="abs t f1">ВЫБЕРИ CLOUD.RU</p>
-  <p class="abs t f2"><span>Входящий звонок</span><span>Загрузка ↑</span></p>
+  <p class="abs t nv f1">ВЫБЕРИ CLOUD.RU</p>
+  <p class="abs t nv f2"><span>Входящий звонок</span><span>Загрузка ↑</span></p>
 </section>
     </div>
     <details class="text">
@@ -2380,11 +2479,11 @@
     <li class="abs cap mark i4">ЗАВОД</li>
   </ul>
 
-  <p class="abs cap mic l1">КАЖДАЯ СКЛЕЙКА</p>
-  <p class="abs cap mic l2">МЕЖДУ МИРАМИ</p>
-  <h2 class="abs cap mic c1">= ПОВОРОТ ГОЛОВЫ ГЕРОЯ</h2>
-  <p class="abs cap mic2 r1">В 20″ — РАЗВОРОТ</p>
-  <p class="abs cap mic2 r2">В КРЕСЛЕ НА 180°</p>
+  <h2 class="abs" style="left:0;top:0;width:1920px;height:1080px;margin:0;pointer-events:none" aria-label="Каждая склейка между мирами = поворот головы героя">
+    <span class="abs cap mic l1" aria-hidden="true">КАЖДАЯ СКЛЕЙКА МЕЖДУ МИРАМИ</span>
+    <span class="abs cap mic l2" aria-hidden="true">= ПОВОРОТ ГОЛОВЫ ГЕРОЯ</span>
+  </h2>
+  <p class="abs cap mic2 r1">В 20″ — РАЗВОРОТ В КРЕСЛЕ НА 180°</p>
 </section>
     </div>
     <details class="text">
@@ -2423,32 +2522,9 @@
     <span class="abs cap bw rt" style="right:1293.6px;top:788.4px" aria-hidden="true">КАМЕРА</span>
     <span class="abs cap bw rt" style="right:1293.6px;top:850.8px" aria-hidden="true">КАК ЕСТЬ</span>
   </h2>
-  <p class="abs cap mc mg" style="left:129.6px;top:402px">Реальные люди</p>
-  <p class="abs cap mc mg" style="left:129.6px;top:411.6px">в массовке</p>
-  <p class="abs cap mc mg" style="left:129.6px;top:897.6px">Документальная</p>
-  <p class="abs cap mc mg" style="left:129.6px;top:907.2px">камера</p>
 
-  <!-- photo card micro -->
-  <p class="abs cap mm md" style="left:703.2px;top:169.2px">21 · Живая</p>
-  <p class="abs cap mm md" style="left:703.2px;top:177.6px">камера</p>
-  <p class="abs cap mm" style="left:823.8px;top:169.2px">Без</p>
-  <p class="abs cap mm" style="left:823.8px;top:177.6px">павильона</p>
-  <p class="abs cap mm" style="left:1039.2px;top:169.2px">Офисы</p>
-  <p class="abs cap mm" style="left:1039.2px;top:180.6px">[ Переговорная ]</p>
-  <p class="abs cap mm" style="left:1039.2px;top:187.8px">[ Опенспейс ]</p>
-  <p class="abs cap mm" style="left:1039.2px;top:195px">[ Кабинет с жалюзи ]</p>
-  <p class="abs cap mm" style="left:1039.2px;top:202.2px">[ Стекло и дерево ]</p>
-  <p class="abs cap mm" style="left:1136.4px;top:169.2px">Люди</p>
-  <p class="abs cap mm" style="left:1136.4px;top:180.6px">[ Техдиректор ]</p>
-  <p class="abs cap mm" style="left:1136.4px;top:187.8px">[ Руководство ]</p>
-  <p class="abs cap mm" style="left:1136.4px;top:195px">[ Команды ]</p>
-  <p class="abs cap mm" style="left:1136.4px;top:202.2px">[ Массовка ]</p>
-  <p class="abs cap mm" style="left:1039.2px;top:223.2px">Настоящие</p>
-  <p class="abs cap mm" style="left:1136.4px;top:223.2px">разработчики</p>
-  <p class="abs cap mm" style="left:704px;top:774px">Дорабатываем</p>
-  <p class="abs cap mm" style="left:704px;top:782.4px">только свет</p>
-  <p class="abs cap mm" style="left:824px;top:774px">и массовку</p>
-  <p class="abs cap mm" style="left:824px;top:782.4px">на площадке</p>
+  <p class="abs cap mc mg" style="left:129.6px;top:402px">Реальные люди</p>
+  <p class="abs cap mc mg" style="left:129.6px;top:427px">в массовке</p>
   <p class="abs cap num rt" style="right:708px;top:770.4px" aria-label="21">21</p>
 
   <!-- grey card: the camera rule -->
@@ -2466,12 +2542,7 @@
     <p class="abs cap jw  " style="left:1279.8px;width:519.6px;top:562.5px">СМОТРЕТЬСЯ</p>
     <p class="abs cap jw  " style="left:1283.4px;width:516px;top:602.0px">ЧЕСТНО.</p>
   </blockquote>
-  <p class="abs cap mc mw" style="left:1288.8px;top:895.2px">Живые</p>
-  <p class="abs cap mc mw" style="left:1288.8px;top:904.8px">реакции</p>
-  <p class="abs cap mc mw" style="left:1430.4px;top:895.2px">Офис,</p>
-  <p class="abs cap mc mw" style="left:1430.4px;top:904.8px">магазин,</p>
-  <p class="abs cap mc mw" style="left:1664.4px;top:895.2px">стройка,</p>
-  <p class="abs cap mc mw" style="left:1664.4px;top:904.8px">завод</p>
+  <p class="abs cap mc mw" style="left:1288.8px;top:895.2px">Офис, магазин, стройка, завод</p>
 </section>
     </div>
     <details class="text">
@@ -2502,17 +2573,15 @@
     <li class="abs cap mi n2">Давит</li>
     <li class="abs cap mi n3">Акт 2: день</li>
     <li class="abs cap mi n4">Отпускает</li>
-    <li class="abs cap mi n5">Переключатель</li>
   </ul>
 
-  <p class="abs cap mi wh a1">Мониторы</p>
-  <p class="abs cap mi wh a2">Лампы</p>
-  <p class="abs cap mi wh b1">Огни города</p>
-  <p class="abs cap mi wh b2">Тени под глазами</p>
+  <p class="abs cap mi ph-l wh a1">Мониторы</p>
+  <p class="abs cap mi ph-l wh a2">Лампы</p>
+  <p class="abs cap mi ph-l wh b1">Огни города</p>
+  <p class="abs cap mi ph-l wh b2">Тени под глазами</p>
 
-  <p class="abs cap mi a3">Дневной свет</p>
-  <p class="abs cap mi a4">Заливает всё</p>
-  <p class="abs cap mi b3">Блики</p>
+  <p class="abs cap mi ph-l a3">Солнце</p>
+  <p class="abs cap mi ph-l a4">Заливает всё</p>
 
   <h2 class="abs cap big">СВЕТ</h2>
 
@@ -2535,7 +2604,7 @@
     <div class="slide-wrap">
 <section data-slide="27" style="--w:1920; --h:1080" class="slide s27" id="world" aria-label="24 Мир и локации">
   <p class="abs m n1">[ ВСЕ ЛОКАЦИИ РЕАЛЬНЫЕ ]</p>
-  <p class="abs m n2">[ ДОРАБАТЫВАЕМ ТОЛЬКО СВЕТ И МАССОВКУ ]</p>
+  <p class="abs m n2">[ ДОБАВЛЯЕМ СВЕТ И МАССОВКУ ]</p>
   <p class="abs m n3">[ БЕЗ ПАВИЛЬОНА ]</p>
 
   <video class="loop abs cov p1" data-claim="glass-office" muted playsinline loop preload="none" poster="media/clips/glass-office-5.jpg"
@@ -2594,7 +2663,7 @@
 
   <h2 class="abs" style="left:0;top:0;margin:0" aria-label="Кастинг: по рукам и по лицу">
     <span class="abs cap logo" style="left:248.6px;top:28.8px" aria-hidden="true">КАСТИНГ:</span>
-    <span class="abs cap logo" style="left:248.6px;top:50.4px" aria-hidden="true">ПО РУКАМ И ЛИЦУ</span>
+    <span class="abs cap logo" style="left:248.6px;top:56.8px" aria-hidden="true">ПО РУКАМ И ЛИЦУ</span>
   </h2>
 
   <p class="abs cap mono" style="left:403.4px;top:451.2px">ТИПАЖИ</p>
@@ -2602,15 +2671,17 @@
   <dl class="abs" style="left:0;top:0;margin:0">
     <dt class="abs cap mono" style="left:697.4px;top:266.4px">ГЕРОЙ:</dt>
     <dd class="abs cap mono" style="left:697.4px;top:303.6px;margin:0">ТЕХДИРЕКТОР</dd>
-    <dd class="abs cap mono" style="left:697.4px;top:322.8px;margin:0">35–45 ЛЕТ</dd>
+    <dd class="abs cap mono" style="left:697.4px;top:335.6px;margin:0">35–45 ЛЕТ</dd>
 
     <dt class="abs cap mono" style="left:697.4px;top:451.2px">ХАРАКТЕР:</dt>
-    <dd class="abs cap mono" style="left:697.4px;top:488.4px;margin:0">УМНЫЙ, УСТАВШИЙ</dd>
-    <dd class="abs cap mono" style="left:697.4px;top:507.6px;margin:0">С ИРОНИЕЙ</dd>
+    <dd class="abs cap mono" style="left:697.4px;top:488.4px;margin:0">УМНЫЙ,</dd>
+    <dd class="abs cap mono" style="left:697.4px;top:520.4px;margin:0">УСТАВШИЙ,</dd>
+    <dd class="abs cap mono" style="left:697.4px;top:552.4px;margin:0">С ИРОНИЕЙ</dd>
 
     <dt class="abs cap mono" style="left:697.4px;top:637.2px">РУКОВОДСТВО:</dt>
     <dd class="abs cap mono" style="left:697.4px;top:673.2px;margin:0">ПЯТЕРО,</dd>
-    <dd class="abs cap mono" style="left:697.4px;top:692.4px;margin:0">ОТКАЗЫВАЮТ ХОРОМ</dd>
+    <dd class="abs cap mono" style="left:697.4px;top:705.2px;margin:0">ОТКАЗЫВАЮТ</dd>
+    <dd class="abs cap mono" style="left:697.4px;top:737.2px;margin:0">ХОРОМ</dd>
 
     <dt class="abs cap mono" style="left:697.4px;top:820.8px">ТОЛПА «ИИ»:</dt>
     <dd class="abs cap mono" style="left:697.4px;top:858px;margin:0">30–40 ЧЕЛОВЕК</dd>
@@ -2619,8 +2690,8 @@
   <p class="abs cap giant" style="left:203px;top:957.6px">ЛЮДИ</p>
 
   <p class="abs cap mono" style="left:1325px;top:958.8px">СОТРУДНИК CLOUD.RU:</p>
-  <p class="abs cap mono r" style="right:249.6px;top:958.8px">ТЁПЛЫЙ</p>
-  <p class="abs cap mono r" style="right:249.6px;top:976.8px">И СПОКОЙНЫЙ</p>
+  <p class="abs cap mono r" style="right:249.6px;top:990.8px">ТЁПЛЫЙ,</p>
+  <p class="abs cap mono r" style="right:249.6px;top:1022.8px">СПОКОЙНЫЙ</p>
 </section>
     </div>
     <details class="text">
@@ -2646,12 +2717,11 @@
     </video>
   </div>
 
-  <p class="abs t para">Диктор звучит только в финальной фразе.<br>Из 60 секунд ролик сжимается в три короткие версии.</p>
-  <p class="abs t link">60″ → 20″ → 15″ → 10″</p>
+  <p class="abs t para">Звук<br>„Выбери“ <i>— в кадре, не диктор</i><br>Толпа <i>хором кричит „ИИ“</i><br>Гудки „занято“ <i>становятся ритмом</i><br>Тишина <i>за жалюзи</i><br>Музыка <i>— со щелчка переключателя</i></p>
 
-  <p class="abs t nav">Говорят в кадре:<br>Совет<br>Команды<br>Финансы<br>Коллеги<br>Толпа</p>
+  <p class="abs t nav">Версии<br>20″<br>15″<br>10″</p>
 
-  <p class="abs t list">Звук<br>„Выбери“ <i>говорят люди в кадре, не диктор</i><br>Толпа <i>кричит „ИИ“ хором</i><br>Гудки „занято“ <i>становятся ритмом</i><br>Тишина <i>за жалюзи</i><br>Музыка облегчения <i>начинается со щелчка переключателя</i><br>Версии<br>20″ — <i>разворот в кресле → отказ → «Выбери ИИ» →</i><br><i>жалюзи → переключатель → офис раскрывается</i><br>15″ — <i>то же без доски с архитектурой</i><br>10″ — <i>толпа «ИИ» → жалюзи → переключатель →</i><br><i>финальный кадр с логотипом</i></p>
+  <p class="abs t list"><i>60″ → три короткие</i><br><i>с разворота в кресле</i><br><i>без сцены у доски</i><br><i>толпа, щелчок, логотип</i></p>
 
   <h2 class="abs t foot">Звук и версии</h2>
 </section>
@@ -2677,8 +2747,10 @@
     <span class="abs cap big w1" aria-hidden="true">Выбери</span>
     <span class="abs cap big w2" aria-hidden="true">Cloud.ru.</span>
   </h2>
-  <p class="abs cap small tag sl">Есть, где развернуться.</p>
-  <p class="abs small para sr">Не „мы лучшие“, а „я тебя понимаю —
+  <p class="abs small tag sl">Есть, где
+развернуться.</p>
+  <p class="abs small para sr">Не „мы лучшие“,
+а „я тебя понимаю —
 и вот выход“</p>
 
   <video class="loop abs ph" data-claim="open-space" muted playsinline loop preload="none" poster="media/clips/office-expand-2.jpg"
