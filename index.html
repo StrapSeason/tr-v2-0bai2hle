@@ -1360,9 +1360,11 @@
   .s28 .mono { font-family: 'IBM Plex Mono', monospace; font-size: 28px; font-weight: 500; }
   .s28 .giant { font-family: 'Roboto Flex', sans-serif; font-size: 540px; color: #050a12; letter-spacing: 0;
                 font-variation-settings: 'wdth' 61, 'wght' 620, 'opsz' 144; }
+  .s28 .giant.whole { font-size: 232px; font-variation-settings: 'wdth' 151, 'wght' 720, 'opsz' 144; } /* 2026-09-17 user: the pin cuts the word off the bottom edge; here it must read whole — sized to the free band under the list and photo, wide axis so it still spans the column */
   .s28 .r { text-align: right; }
+  .s28 .kogo { font-size: 44px; font-weight: 600; line-height: 52px; text-box: none; } /* 2026-09-17: was «ТИПАЖИ» 28 px — a dangling label */
   .s28 .ph { left: 944.4px; top: 26.4px; width: 727.2px; height: 847.2px; overflow: hidden; }
-  .s28 .ph video { position: absolute; left: 0; top: -145.4px; width: 727.2px; height: 1138px; object-fit: cover; object-position: 42% 50%; display: block; }
+  .s28 .ph img { width: 100%; height: 100%; object-fit: cover; object-position: 44% 30%; display: block; } /* 2026-09-17: casting still (Refsee full frame, the source video is closed) — the face reads as the hero: 35–45, smart, tired, ironic */
 
 /* ── s29.html ── */
 /* v2 s29 · 26–27 Звук и версии — meaning first, then the pin.
@@ -1485,21 +1487,21 @@
   <p class="abs cap mic mic2 dk r" style="right:331.1px;top:45.9px">РЕЖИССЁРСКИЙ</p>
   <p class="abs cap mic mic2 dk r" style="right:331.1px;top:80px"><b>ТРИТМЕНТ</b></p>
 
-  <p class="abs cap sm r" style="right:331.1px;top:741.7px">Все смотрят</p>
-  <p class="abs cap sm r" style="right:331.1px;top:772px">на тебя</p>
+  <p class="abs cap sm fs30 r" style="right:331.1px;top:728px">Все смотрят</p>
+  <p class="abs cap sm fs30 r" style="right:331.1px;top:766px">на тебя</p>
 
   <h1 class="abs" style="left:0;top:0;width:1920px;height:1080px;margin:0;font-size:inherit;font-weight:inherit" aria-label="Выбери">
     <span class="abs cap giant" style="left:301.2px;top:740.3px" aria-hidden="true">ВЫБЕ–</span>
     <span class="abs cap giant r" style="right:323.2px;top:903px" aria-hidden="true">РИ</span>
   </h1>
 
-  <p class="abs cap sm fs22 fade" style="left:1139.9px;top:814.8px">Выбор нужен сегодня.</p>
-  <p class="abs cap sm fs22 fade" style="left:1139.9px;top:842px">Ошибка стоит дорого.</p>
-  <p class="abs cap sm fs22 fade" style="left:1139.9px;top:869.2px">Вариантов больше, чем часов.</p>
+  <p class="abs cap sm fs30" style="left:1139.9px;top:790px">Выбор нужен сегодня.</p>
+  <p class="abs cap sm fs30" style="left:1139.9px;top:828px">Ошибка стоит дорого.</p>
+  <p class="abs cap sm fs30" style="left:1139.9px;top:866px">Вариантов больше, чем часов.</p>
 
   <p class="abs cap sm fs30" style="left:308.6px;top:900.6px">Версии ролика</p>
   <p class="abs cap sm fs30" style="left:307.2px;top:940px">60″ · 20″ · 15″ · 10″</p>
-  <p class="abs cap sm" style="left:835.5px;top:901.6px">Герой — ты</p>
+  <p class="abs cap sm fs30" style="left:835.5px;top:901.6px">Герой — ты</p>
   <p class="abs cap sm fs22" style="left:308.6px;top:1024.1px">Сентябрь 2026</p>
 </section>
     </div>
@@ -2655,10 +2657,7 @@
     <div class="slide-wrap">
 <section data-slide="28" style="--w:1920; --h:1080" class="slide s28" id="cast" aria-label="25 Люди">
   <div class="abs ph">
-    <video class="loop" data-claim="cto-type" muted playsinline loop preload="none" poster="media/clips/cto-type-6.jpg"
-           aria-label="Ночь: молодой мужчина в очках склонился над экранами ноутбуков с кодом">
-      <source data-src="media/clips/cto-type-6.webm" type="video/webm"><source data-src="media/clips/cto-type-6.mp4" type="video/mp4">
-    </video>
+    <img src="media/clips/cast-cto-still.jpg" alt="Кастинг героя: бородатый мужчина в очках и кардигане среди офисных перегородок — умный, уставший, с иронией">
   </div>
 
   <h2 class="abs" style="left:0;top:0;margin:0" aria-label="Кастинг: по рукам и по лицу">
@@ -2666,7 +2665,7 @@
     <span class="abs cap logo" style="left:248.6px;top:56.8px" aria-hidden="true">ПО РУКАМ И ЛИЦУ</span>
   </h2>
 
-  <p class="abs cap mono" style="left:403.4px;top:451.2px">ТИПАЖИ</p>
+  <p class="abs cap mono kogo" style="left:403.4px;top:451.2px">КОГО<br>ИЩЕМ</p>
 
   <dl class="abs" style="left:0;top:0;margin:0">
     <dt class="abs cap mono" style="left:697.4px;top:266.4px">ГЕРОЙ:</dt>
@@ -2687,7 +2686,7 @@
     <dd class="abs cap mono" style="left:697.4px;top:858px;margin:0">30–40 ЧЕЛОВЕК</dd>
   </dl>
 
-  <p class="abs cap giant" style="left:203px;top:957.6px">ЛЮДИ</p>
+  <p class="abs cap giant whole" style="left:203px;top:896px">ЛЮДИ</p>
 
   <p class="abs cap mono" style="left:1325px;top:958.8px">СОТРУДНИК CLOUD.RU:</p>
   <p class="abs cap mono r" style="right:249.6px;top:990.8px">ТЁПЛЫЙ,</p>
